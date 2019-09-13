@@ -1,4 +1,9 @@
-# hackaton
+# hackujstat2019
+
+##init data
+```
+node src/assets/js/csvParser.js
+```
 
 ## Project setup
 ```
