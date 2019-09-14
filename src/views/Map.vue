@@ -145,8 +145,8 @@
       initMap() {
         document.getElementById('map').innerHTML = "<div id='map'></div>";
         map = L.map('map', {
-          center: [49.848055, 15.420187],
-          zoom: 8
+          center: this.$store.state.krajCode !== undefined ? this.kraje.find(x => x.code === this.$store.state.krajCode).coords : [49.848055, 15.420187],
+          zoom: this.$store.state.krajCode !== undefined ? this.kraje.find(x => x.code === this.$store.state.krajCode).zoom : 8
         });
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
