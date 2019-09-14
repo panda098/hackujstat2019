@@ -580,7 +580,7 @@
         <text class="kraj_value_CZ080 kraj_value" transform="matrix(1 0 0 1 304.4268 193.4248)"></text>
   </g>
     </svg>
-    <h1 class="title"><span v-pre>{{zdravýKraj}}</span></h1>
+    <h1 class="title is-size-2"><span v-pre>{{ zdravýKraj }}</span></h1>
     <h3 class="subtitle">#hackujstat2019</h3>
     <p>Použité datové sady:</p>
     <a target="_blank"
