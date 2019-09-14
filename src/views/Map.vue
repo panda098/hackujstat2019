@@ -157,7 +157,7 @@
       },
       initData() {
         this.druhyZarizeni = [];
-        this.selectedDruh = null;
+        this.selectedDruh = 'Nemocnice';
         this.destroyMap();
         axios.get('nrpzs.json')
             .then((response) => {
