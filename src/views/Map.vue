@@ -1,25 +1,26 @@
 <template>
   <div class="about">
-    <div>
-      <select v-if="kraje.length" v-model="code">
-        <option v-for="kraj in kraje" :key="kraj.code" v-bind:value="kraj.code">
-          {{ kraj.name }}
-        </option>
-      </select>
+    <div class="select__wrapper">
+      <span class="select__label">Kraj:</span>
+      <div class="select">
+        <select v-if="kraje.length" v-model="code">
+          <option v-for="kraj in kraje" :key="kraj.code" v-bind:value="kraj.code">
+            {{ kraj.name }}
+          </option>
+        </select>
+      </div>
     </div>
-    <p>SelectedDruh: {{ selectedDruh }} | SelectedKraj: {{this.$store.state.krajCode}} | Result count: {{
-      resultCount}}</p>
     <div class="wrapper">
-      <div id="map"></div>
-
       <div class="side-bar">
+        <h4 class="subtitle">Druhy zdrav. zařízení</h4>
         <label v-for="druh in sortedDruhyZarizeni" :key="druh.DruhZarizeni" :for="druh.DruhZarizeni">
           <input type="radio" :id="druh.DruhZarizeni" :value="druh.DruhZarizeni" v-model="selectedDruh">
           {{druh.DruhZarizeni}} ({{druh.count}})<br>
         </label>
       </div>
-      <div class="side-bar">
-        <h3>Zemřelí podle příčin smrti</h3>
+      <div id="map"></div>
+      <div class="side-bar panel">
+        <h4 class="subtitle">Zemřelí podle příčin smrti</h4>
         <ul class="list no-bullets">
           <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod">{{pricina.hodnota}} - {{pricina.ps_txt}}</li>
         </ul>
@@ -210,6 +211,20 @@
 </script>
 
 <style lang="scss">
+  .select {
+    &__wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    &__label {
+      font-size: 20px;
+      margin-right: 15px;
+    }
+  }
+
   .wrapper {
     display: flex;
   }
@@ -221,8 +236,9 @@
 
   .side-bar {
     width: 25%;
+    padding: 10px;
     height: 800px;
-    overflow-y: scroll;
+    overflow-y: auto;
     text-align: left;
   }
 

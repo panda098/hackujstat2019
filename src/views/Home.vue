@@ -580,8 +580,8 @@
         <text class="kraj_value_CZ080 kraj_value" transform="matrix(1 0 0 1 304.4268 193.4248)"></text>
   </g>
     </svg>
-    <h1>todo nazev</h1>
-    <h3>#hackujstat2019</h3>
+    <h1 class="title">todo nazev</h1>
+    <h3 class="subtitle">#hackujstat2019</h3>
     <p>Použité datové sady:</p>
     <a target="_blank"
        href="https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2Fhttps---opendata.mzcr.cz-api-3-action-package_show-id-nrpzs">Národní
