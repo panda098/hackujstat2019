@@ -82,6 +82,7 @@
           return b.hodnota - a.hodnota
         }
 
+        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
         return this.pricinyUmrti.sort(compare);
       }
     },
@@ -140,10 +141,8 @@
         this.pricinyUmrti = [];
         axios.get('zemreli.json')
             .then((response) => {
-              console.log(response.data);
               response.data.forEach((el) => {
                 if (this.selectedKraj === 0) {
-                  console.log(el);
                   let kodExists = this.pricinyUmrti.find(x => x.ps_kod === el.ps_kod);
                   if (!kodExists) this.pricinyUmrti.push(el);
                   else kodExists.hodnota += el.hodnota
