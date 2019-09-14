@@ -6,7 +6,7 @@
           {{ druh.Nazev }}
         </option>
       </select>
-      <select v-if="kraje.length" v-model="selectedKraj">
+      <select v-if="kraje.length" v-model="code">
         <option v-for="kraj in kraje" :key="kraj.code" v-bind:value="kraj.code">
           {{ kraj.name }}
         </option>
@@ -14,7 +14,7 @@
     </div>
     <div>
       <p>SelectedDruh: {{ selectedDruh }}</p>
-      <p>SelectedKraj: {{selectedKraj}}</p>
+      <p>SelectedKraj: {{this.$store.state.krajCode}}</p>
       <p>Result count: {{ resultCount}}</p>
     </div>
     <div class="wrapper">
@@ -71,12 +71,19 @@
           {code: 'CZ063', name: 'Vysočina'},
           {code: 'CZ072', name: 'Zlínský'}
         ],
-        selectedKraj: 0,
         resultCount: null,
         pricinyUmrti: []
       }
     },
     computed: {
+      code: {
+        get() {
+          return this.$store.state.krajCode
+        },
+        set(code) {
+          this.$store.commit('setKrajCode', code)
+        }
+      },
       sortedPricinyUmrti: function () {
         function compare(a, b) {
           return b.hodnota - a.hodnota
@@ -115,8 +122,8 @@
         data.forEach((el) => {
           let valid = true;
           if (el.DruhZarizeni !== this.selectedDruh) valid = false;
-          if (this.selectedKraj !== 0) {
-            if (el.KrajCode !== this.selectedKraj) valid = false;
+          if (this.$store.state.krajCode !== 0) {
+            if (el.KrajCode !== this.$store.state.krajCode) valid = false;
           }
           if (valid) result.push(el)
         });
@@ -142,11 +149,11 @@
         axios.get('zemreli.json')
             .then((response) => {
               response.data.forEach((el) => {
-                if (this.selectedKraj === 0) {
+                if (this.$store.state.krajCode === 0) {
                   let kodExists = this.pricinyUmrti.find(x => x.ps_kod === el.ps_kod);
                   if (!kodExists) this.pricinyUmrti.push(el);
                   else kodExists.hodnota += el.hodnota
-                } else if (el.nuts === this.selectedKraj) this.pricinyUmrti.push(el)
+                } else if (el.nuts === this.$store.state.krajCode) this.pricinyUmrti.push(el)
               })
             })
       }
@@ -154,10 +161,6 @@
     watch: {
       selectedDruh() {
         this.loadData();
-      },
-      selectedKraj() {
-        this.loadData();
-        this.loadTableData();
       }
     },
     beforeCreate() {
@@ -180,6 +183,15 @@
           });
     },
     mounted() {
+      this.$store.watch(
+          (state) => {
+            return state.krajCode
+          },
+          () => {
+            this.loadData();
+            this.loadTableData();
+          }
+      );
       this.loadTableData()
     }
   }
