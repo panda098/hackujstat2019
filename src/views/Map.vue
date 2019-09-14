@@ -27,7 +27,7 @@
             </li>
           </ul>
         </div>
-        <div class="accord">
+        <div class="accord full-height">
           <h4 class="subtitle accord__heading" @click="toggleMaxHeight">Počet vyplacených dávek nem. pojištění</h4>
           <strong>Ženy</strong>
           <ul class="list no-bullets">
