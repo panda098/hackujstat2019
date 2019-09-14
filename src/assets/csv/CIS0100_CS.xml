@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<EXPORT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://apl.czso.cz/iSMS/xsd/isms_cisel.xsd">
+<INFO>
+  <TYPEXP kod="1">Export číselníku</TYPEXP>
+  <VERZEEXP>1.0</VERZEEXP>
+  <ZDROJEXP>iSMS 1.2.6</ZDROJEXP>
+  <DATEXP>2019-09-14</DATEXP>
+  <DATPOHL>2019-09-14</DATPOHL>
+  <KODJAZ>CS</KODJAZ>
+  <OBSAH>
+    <CISELNIK>
+      <TYPCIS kod="C">Číselník</TYPCIS>
+      <AKRCIS>KRAJ_NUTS</AKRCIS>
+      <KODCIS>100</KODCIS>
+      <NAZEV>Kraj</NAZEV>
+    </CISELNIK>
+  </OBSAH>
+</INFO>
+<DATA>
+  <POLOZKA>
+    <CHODNOTA>3000</CHODNOTA>
+    <ZKRTEXT>Extra-Regio</ZKRTEXT>
+    <TEXT>Extra-Regio</TEXT>
+    <ADMPLOD>2004-05-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZZZZ</ATR>
+      <ATR akronym="KOD_RUIAN"></ATR>
+      <ATR akronym="ZKRKRAJ"></ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3018</CHODNOTA>
+    <ZKRTEXT>Hl. m. Praha</ZKRTEXT>
+    <TEXT>Hlavní město Praha</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ010</ATR>
+      <ATR akronym="KOD_RUIAN">19</ATR>
+      <ATR akronym="ZKRKRAJ">PHA</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3026</CHODNOTA>
+    <ZKRTEXT>Středočeský kraj</ZKRTEXT>
+    <TEXT>Středočeský kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ020</ATR>
+      <ATR akronym="KOD_RUIAN">27</ATR>
+      <ATR akronym="ZKRKRAJ">STC</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3034</CHODNOTA>
+    <ZKRTEXT>Jihočeský kraj</ZKRTEXT>
+    <TEXT>Jihočeský kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ031</ATR>
+      <ATR akronym="KOD_RUIAN">35</ATR>
+      <ATR akronym="ZKRKRAJ">JHC</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3042</CHODNOTA>
+    <ZKRTEXT>Plzeňský kraj</ZKRTEXT>
+    <TEXT>Plzeňský kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ032</ATR>
+      <ATR akronym="KOD_RUIAN">43</ATR>
+      <ATR akronym="ZKRKRAJ">PLK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3051</CHODNOTA>
+    <ZKRTEXT>Karlovarský kraj</ZKRTEXT>
+    <TEXT>Karlovarský kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ041</ATR>
+      <ATR akronym="KOD_RUIAN">51</ATR>
+      <ATR akronym="ZKRKRAJ">KVK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3069</CHODNOTA>
+    <ZKRTEXT>Ústecký kraj</ZKRTEXT>
+    <TEXT>Ústecký kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ042</ATR>
+      <ATR akronym="KOD_RUIAN">60</ATR>
+      <ATR akronym="ZKRKRAJ">ULK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3077</CHODNOTA>
+    <ZKRTEXT>Liberecký kraj</ZKRTEXT>
+    <TEXT>Liberecký kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ051</ATR>
+      <ATR akronym="KOD_RUIAN">78</ATR>
+      <ATR akronym="ZKRKRAJ">LBK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3085</CHODNOTA>
+    <ZKRTEXT>Královéhradecký kraj</ZKRTEXT>
+    <TEXT>Královéhradecký kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ052</ATR>
+      <ATR akronym="KOD_RUIAN">86</ATR>
+      <ATR akronym="ZKRKRAJ">HKK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3093</CHODNOTA>
+    <ZKRTEXT>Pardubický kraj</ZKRTEXT>
+    <TEXT>Pardubický kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ053</ATR>
+      <ATR akronym="KOD_RUIAN">94</ATR>
+      <ATR akronym="ZKRKRAJ">PAK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3107</CHODNOTA>
+    <ZKRTEXT>Kraj Vysočina</ZKRTEXT>
+    <TEXT>Kraj Vysočina</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ063</ATR>
+      <ATR akronym="KOD_RUIAN">108</ATR>
+      <ATR akronym="ZKRKRAJ">VYS</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3115</CHODNOTA>
+    <ZKRTEXT>Jihomoravský kraj</ZKRTEXT>
+    <TEXT>Jihomoravský kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ064</ATR>
+      <ATR akronym="KOD_RUIAN">116</ATR>
+      <ATR akronym="ZKRKRAJ">JHM</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3123</CHODNOTA>
+    <ZKRTEXT>Olomoucký kraj</ZKRTEXT>
+    <TEXT>Olomoucký kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ071</ATR>
+      <ATR akronym="KOD_RUIAN">124</ATR>
+      <ATR akronym="ZKRKRAJ">OLK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3131</CHODNOTA>
+    <ZKRTEXT>Zlínský kraj</ZKRTEXT>
+    <TEXT>Zlínský kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ072</ATR>
+      <ATR akronym="KOD_RUIAN">141</ATR>
+      <ATR akronym="ZKRKRAJ">ZLK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+  <POLOZKA>
+    <CHODNOTA>3140</CHODNOTA>
+    <ZKRTEXT>Moravskoslezský kraj</ZKRTEXT>
+    <TEXT>Moravskoslezský kraj</TEXT>
+    <ADMPLOD>2001-03-01</ADMPLOD>
+    <ADMNEPO>9999-09-09</ADMNEPO>
+    <DEFINICE></DEFINICE>
+    <ATRIBUTY>
+      <ATR akronym="CZNUTS">CZ080</ATR>
+      <ATR akronym="KOD_RUIAN">132</ATR>
+      <ATR akronym="ZKRKRAJ">MSK</ATR>
+    </ATRIBUTY>
+  </POLOZKA>
+</DATA>
+</EXPORT>
+

@@ -17,7 +17,15 @@
       <p>SelectedKraj: {{selectedKraj}}</p>
       <p>Result count: {{ resultCount}}</p>
     </div>
-    <div id="map"></div>
+    <div class="wrapper">
+      <div id="map"></div>
+      <div class="side-bar">
+        <h1>Zemřelí podle příčin smrti</h1>
+        <ul class="list no-bullets">
+          <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod">{{pricina.hodnota}} - {{pricina.ps_txt}}</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -26,7 +34,6 @@
   import L from 'leaflet'
   import axios from 'axios'
 
-  const jsonFile = 'nrpzs.json';
   let map;
 
   const providerMarkerSettings = {
@@ -65,7 +72,17 @@
           {code: 'CZ072', name: 'Zlínský'}
         ],
         selectedKraj: 0,
-        resultCount: null
+        resultCount: null,
+        pricinyUmrti: []
+      }
+    },
+    computed: {
+      sortedPricinyUmrti: function () {
+        function compare(a, b) {
+          return b.hodnota - a.hodnota
+        }
+
+        return this.pricinyUmrti.sort(compare);
       }
     },
     methods: {
@@ -82,7 +99,7 @@
         if (map !== undefined) map.remove();
       },
       loadData() {
-        axios.get(jsonFile)
+        axios.get('nrpzs.json')
             .then((response) => {
               let data = response.data;
               if (data.length) {
@@ -118,6 +135,21 @@
             else this.addMarker(obj.Lat, obj.Lng, obj.NazevZarizeni)
           })
         } else console.log('drawMarkers got empty markers array');
+      },
+      loadTableData() {
+        this.pricinyUmrti = [];
+        axios.get('zemreli.json')
+            .then((response) => {
+              console.log(response.data);
+              response.data.forEach((el) => {
+                if (this.selectedKraj === 0) {
+                  console.log(el);
+                  let kodExists = this.pricinyUmrti.find(x => x.ps_kod === el.ps_kod);
+                  if (!kodExists) this.pricinyUmrti.push(el);
+                  else kodExists.hodnota += el.hodnota
+                } else if (el.nuts === this.selectedKraj) this.pricinyUmrti.push(el)
+              })
+            })
       }
     },
     watch: {
@@ -126,6 +158,7 @@
       },
       selectedKraj() {
         this.loadData();
+        this.loadTableData();
       }
     },
     beforeCreate() {
@@ -146,14 +179,28 @@
               this.selectedDruh = this.druhyZarizeni[0].Nazev;
             } else console.log('druhyZarizeni did not load...');
           });
+    },
+    mounted() {
+      this.loadTableData()
     }
   }
 
 </script>
 
 <style lang="scss">
+  .wrapper {
+    display: flex;
+  }
+
   #map {
+    width: 70%;
     height: 800px;
+  }
+
+  .side-bar {
+    width: 30%;
+    height: 800px;
+    overflow-y: scroll;
   }
 
   .leaflet-map-marker {
@@ -163,6 +210,14 @@
 
     &__inner {
       fill: white;
+    }
+  }
+
+  .list {
+    text-align: left;
+
+    &.no-bullets {
+      list-style-type: none;
     }
   }
 </style>
