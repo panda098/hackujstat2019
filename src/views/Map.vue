@@ -183,6 +183,7 @@
           });
     },
     mounted() {
+      if (!this.code) this.$store.commit('setKrajCode', 0);
       this.$store.watch(
           (state) => {
             return state.krajCode
