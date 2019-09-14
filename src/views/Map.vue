@@ -1,26 +1,25 @@
 <template>
   <div class="about">
     <div>
-      <select v-if="druhyZarizeni.length" v-model="selectedDruh">
-        <option v-for="druh in druhyZarizeni" :key="druh.Kod" v-bind:value="druh.Nazev">
-          {{ druh.Nazev }}
-        </option>
-      </select>
       <select v-if="kraje.length" v-model="code">
         <option v-for="kraj in kraje" :key="kraj.code" v-bind:value="kraj.code">
           {{ kraj.name }}
         </option>
       </select>
     </div>
-    <div>
-      <p>SelectedDruh: {{ selectedDruh }}</p>
-      <p>SelectedKraj: {{this.$store.state.krajCode}}</p>
-      <p>Result count: {{ resultCount}}</p>
-    </div>
+    <p>SelectedDruh: {{ selectedDruh }} | SelectedKraj: {{this.$store.state.krajCode}} | Result count: {{
+      resultCount}}</p>
     <div class="wrapper">
       <div id="map"></div>
+
       <div class="side-bar">
-        <h1>Zemřelí podle příčin smrti</h1>
+        <label v-for="druh in sortedDruhyZarizeni" :key="druh.DruhZarizeni" :for="druh.DruhZarizeni">
+          <input type="radio" :id="druh.DruhZarizeni" :value="druh.DruhZarizeni" v-model="selectedDruh">
+          {{druh.DruhZarizeni}} ({{druh.count}})<br>
+        </label>
+      </div>
+      <div class="side-bar">
+        <h3>Zemřelí podle příčin smrti</h3>
         <ul class="list no-bullets">
           <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod">{{pricina.hodnota}} - {{pricina.ps_txt}}</li>
         </ul>
@@ -84,6 +83,14 @@
           this.$store.commit('setKrajCode', code)
         }
       },
+      sortedDruhyZarizeni: function () {
+        function compare(a, b) {
+          return b.count - a.count
+        }
+
+        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+        return this.druhyZarizeni.sort(compare);
+      },
       sortedPricinyUmrti: function () {
         function compare(a, b) {
           return b.hodnota - a.hodnota
@@ -106,7 +113,28 @@
       destroyMap() {
         if (map !== undefined) map.remove();
       },
-      loadData() {
+      initData() {
+        this.druhyZarizeni = [];
+        this.selectedDruh = null;
+        this.destroyMap();
+        axios.get('nrpzs.json')
+            .then((response) => {
+              response.data.forEach((el) => {
+                if (el) {
+                  if (el.KrajCode === this.$store.state.krajCode || this.$store.state.krajCode === 0) {
+                    let elExist = this.druhyZarizeni.find(x => x.DruhZarizeni === el.DruhZarizeni);
+                    if (elExist) elExist.count++;
+                    else this.druhyZarizeni.push({
+                      DruhZarizeni: el.DruhZarizeni,
+                      count: 1
+                    });
+                  }
+                }
+              });
+              this.initMap()
+            })
+      },
+      updateMarkers() {
         axios.get('nrpzs.json')
             .then((response) => {
               let data = response.data;
@@ -159,28 +187,9 @@
       }
     },
     watch: {
-      selectedDruh() {
-        this.loadData();
+      selectedDruh(value) {
+        if (value) this.updateMarkers();
       }
-    },
-    beforeCreate() {
-      axios.get('https://nrpzs.uzis.cz/api/v1/druhy-zarizeni')
-          .then((response) => {
-            if (response.data.length) {
-              this.druhyZarizeni = response.data.sort((a, b) => {
-                var nameA = a.Nazev.toUpperCase();
-                var nameB = b.Nazev.toUpperCase();
-                if (nameA < nameB) {
-                  return -1;
-                }
-                if (nameA > nameB) {
-                  return 1;
-                }
-                return 0;
-              });
-              this.selectedDruh = this.druhyZarizeni[0].Nazev;
-            } else console.log('druhyZarizeni did not load...');
-          });
     },
     mounted() {
       if (!this.code) this.$store.commit('setKrajCode', 0);
@@ -189,10 +198,11 @@
             return state.krajCode
           },
           () => {
-            this.loadData();
+            this.initData();
             this.loadTableData();
           }
       );
+      this.initData();
       this.loadTableData()
     }
   }
@@ -205,14 +215,15 @@
   }
 
   #map {
-    width: 70%;
+    width: 50%;
     height: 800px;
   }
 
   .side-bar {
-    width: 30%;
+    width: 25%;
     height: 800px;
     overflow-y: scroll;
+    text-align: left;
   }
 
   .leaflet-map-marker {
@@ -230,6 +241,7 @@
 
     &.no-bullets {
       list-style-type: none;
+      padding-left: 10px;
     }
   }
 </style>
