@@ -20,17 +20,26 @@
       </div>
       <div id="map"></div>
       <div class="side-bar">
-        <div class="collapsible">
-          <h4 class="subtitle clickable" @click="toggleMaxHeight">Zemřelí podle příčin smrti</h4>
+        <div class="accord">
+          <h4 class="subtitle accord__heading" @click="toggleMaxHeight">Zemřelí podle příčin smrti</h4>
           <ul class="list no-bullets">
             <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod">{{pricina.hodnota}} - {{pricina.ps_txt}}
             </li>
           </ul>
         </div>
-        <div class="collapsible">
-          <h4 class="subtitle clickable" @click="toggleMaxHeight">Počet vyplacených dávek nem. pojištění</h4>
+        <div class="accord">
+          <h4 class="subtitle accord__heading" @click="toggleMaxHeight">Počet vyplacených dávek nem. pojištění</h4>
+          <strong>Ženy</strong>
           <ul class="list no-bullets">
-            <li v-for="dnp in filteredDnp">{{dnp}}</li>
+            <li v-for="dnp in filteredDnpFemale">
+              <span v-if="dnp">{{dnp.typ}}: {{dnp.pocet}}</span>
+            </li>
+          </ul>
+          <strong>Muži</strong>
+          <ul class="list no-bullets">
+            <li v-for="dnp in filteredDnpMale">
+              <span v-if="dnp">{{dnp.typ}}: {{dnp.pocet}}</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -110,15 +119,31 @@
         // eslint-disable-next-line vue/no-side-effects-in-computed-properties
         return this.pricinyUmrti.sort(compare);
       },
-      filteredDnp() {
-        if (this.$store.state.krajCode === 0) return this.dnp;
-        else return this.dnp.map((el) => {
-          if (el.krajCode === this.$store.state.krajCode) return el
-        })
+      filteredDnpFemale() {
+        return this.getDnpBySex('F')
+      },
+      filteredDnpMale() {
+        return this.getDnpBySex('M')
       }
     },
     methods: {
+      getDnpBySex(pohlavi) {
+        if (this.$store.state.krajCode === 0) {
+          let result = [];
+          this.dnp.forEach((el) => {
+            if (el) {
+              let elExist = result.find(x => x.typ === el.typ && x.pohlavi === pohlavi);
+              if (elExist) elExist.pocet += el.pocet;
+              else if (el.pohlavi === pohlavi) result.push(el)
+            }
+          });
+          return result;
+        } else return this.dnp.map((el) => {
+          if (el && el.krajCode === this.$store.state.krajCode && el.pohlavi === pohlavi) return el
+        })
+      },
       initMap() {
+        document.getElementById('map').innerHTML = "<div id='map'></div>";
         map = L.map('map', {
           center: [49.848055, 15.420187],
           zoom: 8
@@ -128,7 +153,7 @@
         }).addTo(map);
       },
       destroyMap() {
-        if (map !== undefined) map.remove();
+        if (map) map.remove();
       },
       initData() {
         this.druhyZarizeni = [];
@@ -180,8 +205,6 @@
         marker.addTo(map);
       },
       drawMarkers(objects) {
-        this.destroyMap();
-        this.initMap();
         if (objects.length) {
           objects.forEach((obj) => {
             if (obj.Lat === '' || obj.Lng === '') console.log('Incomplete data for: ' + obj.NazevZarizeni);
@@ -242,6 +265,9 @@
       this.initData();
       this.loadTableData();
       this.loadDnp()
+    },
+    destroyed() {
+      map = undefined;
     }
   }
 
@@ -298,7 +324,7 @@
     }
   }
 
-  .collapsible {
+  .accord {
     height: 240px;
     overflow: hidden;
     margin-bottom: 10px;
@@ -319,14 +345,14 @@
         content: '-';
       }
     }
-  }
 
-  .clickable {
-    text-decoration: underline;
+    &__heading {
+      text-decoration: underline;
 
-    &:hover {
-      text-decoration: none;
-      cursor: pointer;
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
     }
   }
 </style>
