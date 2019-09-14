@@ -206,6 +206,8 @@
       },
       drawMarkers(objects) {
         if (objects.length) {
+          this.destroyMap();
+          this.initMap();
           objects.forEach((obj) => {
             if (obj.Lat === '' || obj.Lng === '') console.log('Incomplete data for: ' + obj.NazevZarizeni);
             else this.addMarker(obj.Lat, obj.Lng, obj.NazevZarizeni)
