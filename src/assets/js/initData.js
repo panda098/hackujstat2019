@@ -2,14 +2,13 @@ const csv = require('csv-parser');
 const fs = require('fs');
 const xml2js = require('xml2js');
 
-const results = [];
+const nrpzs = [];
 
 fs.createReadStream('../csv/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv')
     .pipe(csv())
-    .on('data', (data) => results.push(data))
+    .on('data', (data) => nrpzs.push(data))
     .on('end', () => {
-      console.log(results);
-      fs.writeFile('../../../public/nrpzs.json', JSON.stringify(results), 'utf8', () => {
+      fs.writeFile('../../../public/nrpzs.json', JSON.stringify(nrpzs), 'utf8', () => {
       });
     });
 
@@ -22,7 +21,6 @@ fs.createReadStream('../csv/kraj.csv')
       kraje.push(data)
     })
     .on('end', () => {
-      console.log(kraje);
       fs.writeFile('../../../public/kraj.json', JSON.stringify(kraje), 'utf8', () => {
       });
     });
@@ -35,7 +33,6 @@ fs.createReadStream('../csv/okres.csv')
       okresy.push(data)
     })
     .on('end', () => {
-      console.log(okresy);
       fs.writeFile('../../../public/okres.json', JSON.stringify(okresy), 'utf8', () => {
       });
     });
@@ -48,7 +45,6 @@ fs.createReadStream('../csv/obec.csv')
       obce.push(data)
     })
     .on('end', () => {
-      console.log(obce);
       fs.writeFile('../../../public/obec.json', JSON.stringify(obce), 'utf8', () => {
       });
     });
@@ -58,15 +54,12 @@ var parser = new xml2js.Parser();
 fs.readFile('../csv/CIS0100_CS.xml', function (err, data) {
   parser.parseString(data, function (err, result) {
     var kraje = result.EXPORT.DATA[0].POLOZKA;
-    console.dir(kraje);
     kraje.forEach((el) => {
-      console.log(el.ATRIBUTY[0].ATR[0]._);
       ciselnikKraje.push({
         'kod': el.CHODNOTA[0],
         'nuts': el.ATRIBUTY[0].ATR[0]._
       })
     });
-    console.log(ciselnikKraje);
   });
 });
 
@@ -85,5 +78,19 @@ fs.createReadStream('../csv/zemreli.csv')
     .on('end', () => {
       fs.writeFile('../../../public/zemreli.json', JSON.stringify(zemreli), 'utf8', () => {
       });
-      console.log(zemreli);
+    });
+
+const dnp = [];
+
+fs.createReadStream('../csv/pocet-vyplacenych-dnp-podle-kraju-2019.csv')
+    .pipe(csv({separator: ','}))
+    .on('data', (data) => {
+      let ruianKod = data.kraj_kod.replace("VC.", "");
+      let kraj = kraje.find(x => x.id === ruianKod);
+      data.nuts = kraj.nuts;
+      dnp.push(data)
+    })
+    .on('end', () => {
+      fs.writeFile('../../../public/dnp.json', JSON.stringify(dnp), 'utf8', () => {
+      });
     });

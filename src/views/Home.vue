@@ -580,7 +580,7 @@
         <text class="kraj_value_CZ080 kraj_value" transform="matrix(1 0 0 1 304.4268 193.4248)"></text>
   </g>
     </svg>
-    <h1 class="title">todo nazev</h1>
+    <h1 class="title"><span v-pre>{{zdravýKraj}}</span></h1>
     <h3 class="subtitle">#hackujstat2019</h3>
     <p>Použité datové sady:</p>
     <a target="_blank"
@@ -588,7 +588,10 @@
       registr poskytovatelů zdravotních služeb</a><br>
     <a target="_blank"
        href="https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2Fhttp---vdb.czso.cz-pll-eweb-package_show-id-130143">Zemřelí
-      podle příčin smrti a pohlaví v ČR, krajích a okresech</a>
+      podle příčin smrti a pohlaví v ČR, krajích a okresech</a><br>
+    <a target="_blank"
+       href="https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2FCSShZbzpcn%2F695492977%2F705cd3a83dc5fbc004fc2f31d6bab7e2">Počet
+      vyplacených dávek nemocenského pojištění podle krajů</a>
   </div>
 </template>
 

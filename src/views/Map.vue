@@ -19,11 +19,20 @@
         </label>
       </div>
       <div id="map"></div>
-      <div class="side-bar panel">
-        <h4 class="subtitle">Zemřelí podle příčin smrti</h4>
-        <ul class="list no-bullets">
-          <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod">{{pricina.hodnota}} - {{pricina.ps_txt}}</li>
-        </ul>
+      <div class="side-bar">
+        <div class="collapsible">
+          <h4 class="subtitle clickable" @click="toggleMaxHeight">Zemřelí podle příčin smrti</h4>
+          <ul class="list no-bullets">
+            <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod">{{pricina.hodnota}} - {{pricina.ps_txt}}
+            </li>
+          </ul>
+        </div>
+        <div class="collapsible">
+          <h4 class="subtitle clickable" @click="toggleMaxHeight">Počet vyplacených dávek nem. pojištění</h4>
+          <ul class="list no-bullets">
+            <li v-for="dnp in filteredDnp">{{dnp}}</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -72,7 +81,8 @@
           {code: 'CZ072', name: 'Zlínský'}
         ],
         resultCount: null,
-        pricinyUmrti: []
+        pricinyUmrti: [],
+        dnp: []
       }
     },
     computed: {
@@ -99,6 +109,12 @@
 
         // eslint-disable-next-line vue/no-side-effects-in-computed-properties
         return this.pricinyUmrti.sort(compare);
+      },
+      filteredDnp() {
+        if (this.$store.state.krajCode === 0) return this.dnp;
+        else return this.dnp.map((el) => {
+          if (el.krajCode === this.$store.state.krajCode) return el
+        })
       }
     },
     methods: {
@@ -185,6 +201,25 @@
                 } else if (el.nuts === this.$store.state.krajCode) this.pricinyUmrti.push(el)
               })
             })
+      },
+      loadDnp() {
+        this.dnp = [];
+        axios.get('dnp.json')
+            .then((response) => {
+              response.data.forEach((el) => {
+                let elExist = this.dnp.find(x => x.krajCode === el.nuts && x.pohlavi === el.pohlavi_kod && x.typ === el.typ_dnp);
+                if (elExist) elExist.pocet += parseInt(el.pocet_dnp);
+                else this.dnp.push({
+                  krajCode: el.nuts,
+                  pohlavi: el.pohlavi_kod,
+                  typ: el.typ_dnp,
+                  pocet: parseInt(el.pocet_dnp)
+                })
+              });
+            })
+      },
+      toggleMaxHeight(e) {
+        e.target.parentElement.classList.toggle('full-height')
       }
     },
     watch: {
@@ -201,10 +236,12 @@
           () => {
             this.initData();
             this.loadTableData();
+            this.loadDnp()
           }
       );
       this.initData();
-      this.loadTableData()
+      this.loadTableData();
+      this.loadDnp()
     }
   }
 
@@ -258,6 +295,38 @@
     &.no-bullets {
       list-style-type: none;
       padding-left: 10px;
+    }
+  }
+
+  .collapsible {
+    height: 240px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: '+';
+      top: 0;
+      right: 10px;
+      font-size: 20px;
+    }
+
+    &.full-height {
+      height: auto;
+
+      &:after {
+        content: '-';
+      }
+    }
+  }
+
+  .clickable {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+      cursor: pointer;
     }
   }
 </style>

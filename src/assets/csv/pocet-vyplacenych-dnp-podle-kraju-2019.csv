@@ -1,0 +1,925 @@
+datum,kraj_kod,kraj,pohlavi_kod,pohlavi,typ_dnp,pocet_dnp
+2019-01-01,VC.108,Kraj Vysočina,F,Žena,Dlouhodobé ošetřovné,42
+2019-01-01,VC.108,Kraj Vysočina,F,Žena,Nemocenské,5729
+2019-01-01,VC.108,Kraj Vysočina,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.108,Kraj Vysočina,F,Žena,Ošetřovné,1393
+2019-01-01,VC.108,Kraj Vysočina,F,Žena,Peněžitá pomoc v mateřství,1754
+2019-01-01,VC.108,Kraj Vysočina,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,17
+2019-01-01,VC.108,Kraj Vysočina,M,Muž,Dlouhodobé ošetřovné,15
+2019-01-01,VC.108,Kraj Vysočina,M,Muž,Nemocenské,5126
+2019-01-01,VC.108,Kraj Vysočina,M,Muž,Otcovská poporodní péče,173
+2019-01-01,VC.108,Kraj Vysočina,M,Muž,Ošetřovné,611
+2019-01-01,VC.108,Kraj Vysočina,M,Muž,Peněžitá pomoc v mateřství,24
+2019-01-01,VC.116,Jihomoravský kraj,F,Žena,Dlouhodobé ošetřovné,100
+2019-01-01,VC.116,Jihomoravský kraj,F,Žena,Nemocenské,13298
+2019-01-01,VC.116,Jihomoravský kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.116,Jihomoravský kraj,F,Žena,Ošetřovné,4084
+2019-01-01,VC.116,Jihomoravský kraj,F,Žena,Peněžitá pomoc v mateřství,6026
+2019-01-01,VC.116,Jihomoravský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,17
+2019-01-01,VC.116,Jihomoravský kraj,M,Muž,Dlouhodobé ošetřovné,24
+2019-01-01,VC.116,Jihomoravský kraj,M,Muž,Nemocenské,11532
+2019-01-01,VC.116,Jihomoravský kraj,M,Muž,Otcovská poporodní péče,426
+2019-01-01,VC.116,Jihomoravský kraj,M,Muž,Ošetřovné,1293
+2019-01-01,VC.116,Jihomoravský kraj,M,Muž,Peněžitá pomoc v mateřství,70
+2019-01-01,VC.124,Olomoucký kraj,F,Žena,Dlouhodobé ošetřovné,29
+2019-01-01,VC.124,Olomoucký kraj,F,Žena,Nemocenské,6646
+2019-01-01,VC.124,Olomoucký kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.124,Olomoucký kraj,F,Žena,Ošetřovné,1965
+2019-01-01,VC.124,Olomoucký kraj,F,Žena,Peněžitá pomoc v mateřství,2138
+2019-01-01,VC.124,Olomoucký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-01-01,VC.124,Olomoucký kraj,M,Muž,Dlouhodobé ošetřovné,10
+2019-01-01,VC.124,Olomoucký kraj,M,Muž,Nemocenské,6144
+2019-01-01,VC.124,Olomoucký kraj,M,Muž,Otcovská poporodní péče,181
+2019-01-01,VC.124,Olomoucký kraj,M,Muž,Ošetřovné,757
+2019-01-01,VC.124,Olomoucký kraj,M,Muž,Peněžitá pomoc v mateřství,18
+2019-01-01,VC.132,Moravskoslezský kraj,F,Žena,Dlouhodobé ošetřovné,56
+2019-01-01,VC.132,Moravskoslezský kraj,F,Žena,Nemocenské,14917
+2019-01-01,VC.132,Moravskoslezský kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.132,Moravskoslezský kraj,F,Žena,Ošetřovné,4048
+2019-01-01,VC.132,Moravskoslezský kraj,F,Žena,Peněžitá pomoc v mateřství,4472
+2019-01-01,VC.132,Moravskoslezský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,26
+2019-01-01,VC.132,Moravskoslezský kraj,M,Muž,Dlouhodobé ošetřovné,14
+2019-01-01,VC.132,Moravskoslezský kraj,M,Muž,Nemocenské,14249
+2019-01-01,VC.132,Moravskoslezský kraj,M,Muž,Otcovská poporodní péče,357
+2019-01-01,VC.132,Moravskoslezský kraj,M,Muž,Ošetřovné,1840
+2019-01-01,VC.132,Moravskoslezský kraj,M,Muž,Peněžitá pomoc v mateřství,54
+2019-01-01,VC.141,Zlínský kraj,F,Žena,Dlouhodobé ošetřovné,54
+2019-01-01,VC.141,Zlínský kraj,F,Žena,Nemocenské,6882
+2019-01-01,VC.141,Zlínský kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.141,Zlínský kraj,F,Žena,Ošetřovné,2024
+2019-01-01,VC.141,Zlínský kraj,F,Žena,Peněžitá pomoc v mateřství,2243
+2019-01-01,VC.141,Zlínský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,8
+2019-01-01,VC.141,Zlínský kraj,M,Muž,Dlouhodobé ošetřovné,23
+2019-01-01,VC.141,Zlínský kraj,M,Muž,Nemocenské,6610
+2019-01-01,VC.141,Zlínský kraj,M,Muž,Otcovská poporodní péče,177
+2019-01-01,VC.141,Zlínský kraj,M,Muž,Ošetřovné,901
+2019-01-01,VC.141,Zlínský kraj,M,Muž,Peněžitá pomoc v mateřství,24
+2019-01-01,VC.19,Hlavní město Praha,F,Žena,Dlouhodobé ošetřovné,81
+2019-01-01,VC.19,Hlavní město Praha,F,Žena,Nemocenské,22959
+2019-01-01,VC.19,Hlavní město Praha,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.19,Hlavní město Praha,F,Žena,Ošetřovné,8819
+2019-01-01,VC.19,Hlavní město Praha,F,Žena,Peněžitá pomoc v mateřství,14871
+2019-01-01,VC.19,Hlavní město Praha,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,27
+2019-01-01,VC.19,Hlavní město Praha,M,Muž,Dlouhodobé ošetřovné,15
+2019-01-01,VC.19,Hlavní město Praha,M,Muž,Nemocenské,14328
+2019-01-01,VC.19,Hlavní město Praha,M,Muž,Otcovská poporodní péče,780
+2019-01-01,VC.19,Hlavní město Praha,M,Muž,Ošetřovné,1881
+2019-01-01,VC.19,Hlavní město Praha,M,Muž,Peněžitá pomoc v mateřství,169
+2019-01-01,VC.27,Středočeský kraj,F,Žena,Dlouhodobé ošetřovné,48
+2019-01-01,VC.27,Středočeský kraj,F,Žena,Nemocenské,11952
+2019-01-01,VC.27,Středočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.27,Středočeský kraj,F,Žena,Ošetřovné,4254
+2019-01-01,VC.27,Středočeský kraj,F,Žena,Peněžitá pomoc v mateřství,4418
+2019-01-01,VC.27,Středočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,31
+2019-01-01,VC.27,Středočeský kraj,M,Muž,Dlouhodobé ošetřovné,15
+2019-01-01,VC.27,Středočeský kraj,M,Muž,Nemocenské,9629
+2019-01-01,VC.27,Středočeský kraj,M,Muž,Otcovská poporodní péče,349
+2019-01-01,VC.27,Středočeský kraj,M,Muž,Ošetřovné,1427
+2019-01-01,VC.27,Středočeský kraj,M,Muž,Peněžitá pomoc v mateřství,44
+2019-01-01,VC.35,Jihočeský kraj,F,Žena,Dlouhodobé ošetřovné,57
+2019-01-01,VC.35,Jihočeský kraj,F,Žena,Nemocenské,7498
+2019-01-01,VC.35,Jihočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.35,Jihočeský kraj,F,Žena,Ošetřovné,2453
+2019-01-01,VC.35,Jihočeský kraj,F,Žena,Peněžitá pomoc v mateřství,2326
+2019-01-01,VC.35,Jihočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,7
+2019-01-01,VC.35,Jihočeský kraj,M,Muž,Dlouhodobé ošetřovné,15
+2019-01-01,VC.35,Jihočeský kraj,M,Muž,Nemocenské,6048
+2019-01-01,VC.35,Jihočeský kraj,M,Muž,Otcovská poporodní péče,166
+2019-01-01,VC.35,Jihočeský kraj,M,Muž,Ošetřovné,676
+2019-01-01,VC.35,Jihočeský kraj,M,Muž,Peněžitá pomoc v mateřství,20
+2019-01-01,VC.43,Plzeňský kraj,F,Žena,Dlouhodobé ošetřovné,28
+2019-01-01,VC.43,Plzeňský kraj,F,Žena,Nemocenské,6600
+2019-01-01,VC.43,Plzeňský kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.43,Plzeňský kraj,F,Žena,Ošetřovné,2328
+2019-01-01,VC.43,Plzeňský kraj,F,Žena,Peněžitá pomoc v mateřství,2148
+2019-01-01,VC.43,Plzeňský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,5
+2019-01-01,VC.43,Plzeňský kraj,M,Muž,Dlouhodobé ošetřovné,15
+2019-01-01,VC.43,Plzeňský kraj,M,Muž,Nemocenské,5440
+2019-01-01,VC.43,Plzeňský kraj,M,Muž,Otcovská poporodní péče,185
+2019-01-01,VC.43,Plzeňský kraj,M,Muž,Ošetřovné,629
+2019-01-01,VC.43,Plzeňský kraj,M,Muž,Peněžitá pomoc v mateřství,11
+2019-01-01,VC.51,Karlovarský kraj,F,Žena,Dlouhodobé ošetřovné,14
+2019-01-01,VC.51,Karlovarský kraj,F,Žena,Nemocenské,2658
+2019-01-01,VC.51,Karlovarský kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.51,Karlovarský kraj,F,Žena,Ošetřovné,1018
+2019-01-01,VC.51,Karlovarský kraj,F,Žena,Peněžitá pomoc v mateřství,762
+2019-01-01,VC.51,Karlovarský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,6
+2019-01-01,VC.51,Karlovarský kraj,M,Muž,Dlouhodobé ošetřovné,1
+2019-01-01,VC.51,Karlovarský kraj,M,Muž,Nemocenské,1830
+2019-01-01,VC.51,Karlovarský kraj,M,Muž,Otcovská poporodní péče,43
+2019-01-01,VC.51,Karlovarský kraj,M,Muž,Ošetřovné,179
+2019-01-01,VC.51,Karlovarský kraj,M,Muž,Peněžitá pomoc v mateřství,12
+2019-01-01,VC.60,Ústecký kraj,F,Žena,Dlouhodobé ošetřovné,38
+2019-01-01,VC.60,Ústecký kraj,F,Žena,Nemocenské,8957
+2019-01-01,VC.60,Ústecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.60,Ústecký kraj,F,Žena,Ošetřovné,2953
+2019-01-01,VC.60,Ústecký kraj,F,Žena,Peněžitá pomoc v mateřství,2475
+2019-01-01,VC.60,Ústecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,10
+2019-01-01,VC.60,Ústecký kraj,M,Muž,Dlouhodobé ošetřovné,3
+2019-01-01,VC.60,Ústecký kraj,M,Muž,Nemocenské,6395
+2019-01-01,VC.60,Ústecký kraj,M,Muž,Otcovská poporodní péče,150
+2019-01-01,VC.60,Ústecký kraj,M,Muž,Ošetřovné,674
+2019-01-01,VC.60,Ústecký kraj,M,Muž,Peněžitá pomoc v mateřství,13
+2019-01-01,VC.78,Liberecký kraj,F,Žena,Dlouhodobé ošetřovné,24
+2019-01-01,VC.78,Liberecký kraj,F,Žena,Nemocenské,4770
+2019-01-01,VC.78,Liberecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.78,Liberecký kraj,F,Žena,Ošetřovné,1559
+2019-01-01,VC.78,Liberecký kraj,F,Žena,Peněžitá pomoc v mateřství,1529
+2019-01-01,VC.78,Liberecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-01-01,VC.78,Liberecký kraj,M,Muž,Dlouhodobé ošetřovné,9
+2019-01-01,VC.78,Liberecký kraj,M,Muž,Nemocenské,3812
+2019-01-01,VC.78,Liberecký kraj,M,Muž,Otcovská poporodní péče,106
+2019-01-01,VC.78,Liberecký kraj,M,Muž,Ošetřovné,516
+2019-01-01,VC.78,Liberecký kraj,M,Muž,Peněžitá pomoc v mateřství,10
+2019-01-01,VC.86,Královéhradecký kraj,F,Žena,Dlouhodobé ošetřovné,32
+2019-01-01,VC.86,Královéhradecký kraj,F,Žena,Nemocenské,5364
+2019-01-01,VC.86,Královéhradecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.86,Královéhradecký kraj,F,Žena,Ošetřovné,1843
+2019-01-01,VC.86,Královéhradecký kraj,F,Žena,Peněžitá pomoc v mateřství,1861
+2019-01-01,VC.86,Královéhradecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-01-01,VC.86,Královéhradecký kraj,M,Muž,Dlouhodobé ošetřovné,12
+2019-01-01,VC.86,Královéhradecký kraj,M,Muž,Nemocenské,4924
+2019-01-01,VC.86,Královéhradecký kraj,M,Muž,Otcovská poporodní péče,166
+2019-01-01,VC.86,Královéhradecký kraj,M,Muž,Ošetřovné,683
+2019-01-01,VC.86,Královéhradecký kraj,M,Muž,Peněžitá pomoc v mateřství,22
+2019-01-01,VC.94,Pardubický kraj,F,Žena,Dlouhodobé ošetřovné,33
+2019-01-01,VC.94,Pardubický kraj,F,Žena,Nemocenské,5811
+2019-01-01,VC.94,Pardubický kraj,F,Žena,Otcovská poporodní péče,0
+2019-01-01,VC.94,Pardubický kraj,F,Žena,Ošetřovné,1970
+2019-01-01,VC.94,Pardubický kraj,F,Žena,Peněžitá pomoc v mateřství,2228
+2019-01-01,VC.94,Pardubický kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,5
+2019-01-01,VC.94,Pardubický kraj,M,Muž,Dlouhodobé ošetřovné,12
+2019-01-01,VC.94,Pardubický kraj,M,Muž,Nemocenské,4807
+2019-01-01,VC.94,Pardubický kraj,M,Muž,Otcovská poporodní péče,185
+2019-01-01,VC.94,Pardubický kraj,M,Muž,Ošetřovné,570
+2019-01-01,VC.94,Pardubický kraj,M,Muž,Peněžitá pomoc v mateřství,23
+2019-02-01,VC.108,Kraj Vysočina,F,Žena,Dlouhodobé ošetřovné,42
+2019-02-01,VC.108,Kraj Vysočina,F,Žena,Nemocenské,5124
+2019-02-01,VC.108,Kraj Vysočina,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.108,Kraj Vysočina,F,Žena,Ošetřovné,1701
+2019-02-01,VC.108,Kraj Vysočina,F,Žena,Peněžitá pomoc v mateřství,1716
+2019-02-01,VC.108,Kraj Vysočina,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,14
+2019-02-01,VC.108,Kraj Vysočina,M,Muž,Dlouhodobé ošetřovné,14
+2019-02-01,VC.108,Kraj Vysočina,M,Muž,Nemocenské,4850
+2019-02-01,VC.108,Kraj Vysočina,M,Muž,Otcovská poporodní péče,189
+2019-02-01,VC.108,Kraj Vysočina,M,Muž,Ošetřovné,650
+2019-02-01,VC.108,Kraj Vysočina,M,Muž,Peněžitá pomoc v mateřství,20
+2019-02-01,VC.116,Jihomoravský kraj,F,Žena,Dlouhodobé ošetřovné,97
+2019-02-01,VC.116,Jihomoravský kraj,F,Žena,Nemocenské,11825
+2019-02-01,VC.116,Jihomoravský kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.116,Jihomoravský kraj,F,Žena,Ošetřovné,4521
+2019-02-01,VC.116,Jihomoravský kraj,F,Žena,Peněžitá pomoc v mateřství,5912
+2019-02-01,VC.116,Jihomoravský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,16
+2019-02-01,VC.116,Jihomoravský kraj,M,Muž,Dlouhodobé ošetřovné,29
+2019-02-01,VC.116,Jihomoravský kraj,M,Muž,Nemocenské,10584
+2019-02-01,VC.116,Jihomoravský kraj,M,Muž,Otcovská poporodní péče,411
+2019-02-01,VC.116,Jihomoravský kraj,M,Muž,Ošetřovné,1309
+2019-02-01,VC.116,Jihomoravský kraj,M,Muž,Peněžitá pomoc v mateřství,79
+2019-02-01,VC.124,Olomoucký kraj,F,Žena,Dlouhodobé ošetřovné,19
+2019-02-01,VC.124,Olomoucký kraj,F,Žena,Nemocenské,5870
+2019-02-01,VC.124,Olomoucký kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.124,Olomoucký kraj,F,Žena,Ošetřovné,2109
+2019-02-01,VC.124,Olomoucký kraj,F,Žena,Peněžitá pomoc v mateřství,2099
+2019-02-01,VC.124,Olomoucký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,7
+2019-02-01,VC.124,Olomoucký kraj,M,Muž,Dlouhodobé ošetřovné,11
+2019-02-01,VC.124,Olomoucký kraj,M,Muž,Nemocenské,5731
+2019-02-01,VC.124,Olomoucký kraj,M,Muž,Otcovská poporodní péče,195
+2019-02-01,VC.124,Olomoucký kraj,M,Muž,Ošetřovné,734
+2019-02-01,VC.124,Olomoucký kraj,M,Muž,Peněžitá pomoc v mateřství,17
+2019-02-01,VC.132,Moravskoslezský kraj,F,Žena,Dlouhodobé ošetřovné,62
+2019-02-01,VC.132,Moravskoslezský kraj,F,Žena,Nemocenské,13880
+2019-02-01,VC.132,Moravskoslezský kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.132,Moravskoslezský kraj,F,Žena,Ošetřovné,4430
+2019-02-01,VC.132,Moravskoslezský kraj,F,Žena,Peněžitá pomoc v mateřství,4380
+2019-02-01,VC.132,Moravskoslezský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,17
+2019-02-01,VC.132,Moravskoslezský kraj,M,Muž,Dlouhodobé ošetřovné,11
+2019-02-01,VC.132,Moravskoslezský kraj,M,Muž,Nemocenské,14106
+2019-02-01,VC.132,Moravskoslezský kraj,M,Muž,Otcovská poporodní péče,455
+2019-02-01,VC.132,Moravskoslezský kraj,M,Muž,Ošetřovné,1865
+2019-02-01,VC.132,Moravskoslezský kraj,M,Muž,Peněžitá pomoc v mateřství,50
+2019-02-01,VC.141,Zlínský kraj,F,Žena,Dlouhodobé ošetřovné,46
+2019-02-01,VC.141,Zlínský kraj,F,Žena,Nemocenské,6744
+2019-02-01,VC.141,Zlínský kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.141,Zlínský kraj,F,Žena,Ošetřovné,2266
+2019-02-01,VC.141,Zlínský kraj,F,Žena,Peněžitá pomoc v mateřství,2199
+2019-02-01,VC.141,Zlínský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-02-01,VC.141,Zlínský kraj,M,Muž,Dlouhodobé ošetřovné,14
+2019-02-01,VC.141,Zlínský kraj,M,Muž,Nemocenské,6726
+2019-02-01,VC.141,Zlínský kraj,M,Muž,Otcovská poporodní péče,228
+2019-02-01,VC.141,Zlínský kraj,M,Muž,Ošetřovné,893
+2019-02-01,VC.141,Zlínský kraj,M,Muž,Peněžitá pomoc v mateřství,22
+2019-02-01,VC.19,Hlavní město Praha,F,Žena,Dlouhodobé ošetřovné,89
+2019-02-01,VC.19,Hlavní město Praha,F,Žena,Nemocenské,20462
+2019-02-01,VC.19,Hlavní město Praha,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.19,Hlavní město Praha,F,Žena,Ošetřovné,8637
+2019-02-01,VC.19,Hlavní město Praha,F,Žena,Peněžitá pomoc v mateřství,14647
+2019-02-01,VC.19,Hlavní město Praha,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,18
+2019-02-01,VC.19,Hlavní město Praha,M,Muž,Dlouhodobé ošetřovné,12
+2019-02-01,VC.19,Hlavní město Praha,M,Muž,Nemocenské,12814
+2019-02-01,VC.19,Hlavní město Praha,M,Muž,Otcovská poporodní péče,899
+2019-02-01,VC.19,Hlavní město Praha,M,Muž,Ošetřovné,1762
+2019-02-01,VC.19,Hlavní město Praha,M,Muž,Peněžitá pomoc v mateřství,163
+2019-02-01,VC.27,Středočeský kraj,F,Žena,Dlouhodobé ošetřovné,37
+2019-02-01,VC.27,Středočeský kraj,F,Žena,Nemocenské,11009
+2019-02-01,VC.27,Středočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.27,Středočeský kraj,F,Žena,Ošetřovné,4969
+2019-02-01,VC.27,Středočeský kraj,F,Žena,Peněžitá pomoc v mateřství,4357
+2019-02-01,VC.27,Středočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,15
+2019-02-01,VC.27,Středočeský kraj,M,Muž,Dlouhodobé ošetřovné,13
+2019-02-01,VC.27,Středočeský kraj,M,Muž,Nemocenské,8656
+2019-02-01,VC.27,Středočeský kraj,M,Muž,Otcovská poporodní péče,405
+2019-02-01,VC.27,Středočeský kraj,M,Muž,Ošetřovné,1521
+2019-02-01,VC.27,Středočeský kraj,M,Muž,Peněžitá pomoc v mateřství,42
+2019-02-01,VC.35,Jihočeský kraj,F,Žena,Dlouhodobé ošetřovné,64
+2019-02-01,VC.35,Jihočeský kraj,F,Žena,Nemocenské,6831
+2019-02-01,VC.35,Jihočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.35,Jihočeský kraj,F,Žena,Ošetřovné,2686
+2019-02-01,VC.35,Jihočeský kraj,F,Žena,Peněžitá pomoc v mateřství,2302
+2019-02-01,VC.35,Jihočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,2
+2019-02-01,VC.35,Jihočeský kraj,M,Muž,Dlouhodobé ošetřovné,15
+2019-02-01,VC.35,Jihočeský kraj,M,Muž,Nemocenské,5685
+2019-02-01,VC.35,Jihočeský kraj,M,Muž,Otcovská poporodní péče,189
+2019-02-01,VC.35,Jihočeský kraj,M,Muž,Ošetřovné,629
+2019-02-01,VC.35,Jihočeský kraj,M,Muž,Peněžitá pomoc v mateřství,24
+2019-02-01,VC.43,Plzeňský kraj,F,Žena,Dlouhodobé ošetřovné,24
+2019-02-01,VC.43,Plzeňský kraj,F,Žena,Nemocenské,6184
+2019-02-01,VC.43,Plzeňský kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.43,Plzeňský kraj,F,Žena,Ošetřovné,2830
+2019-02-01,VC.43,Plzeňský kraj,F,Žena,Peněžitá pomoc v mateřství,2093
+2019-02-01,VC.43,Plzeňský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,6
+2019-02-01,VC.43,Plzeňský kraj,M,Muž,Dlouhodobé ošetřovné,8
+2019-02-01,VC.43,Plzeňský kraj,M,Muž,Nemocenské,5029
+2019-02-01,VC.43,Plzeňský kraj,M,Muž,Otcovská poporodní péče,176
+2019-02-01,VC.43,Plzeňský kraj,M,Muž,Ošetřovné,719
+2019-02-01,VC.43,Plzeňský kraj,M,Muž,Peněžitá pomoc v mateřství,14
+2019-02-01,VC.51,Karlovarský kraj,F,Žena,Dlouhodobé ošetřovné,13
+2019-02-01,VC.51,Karlovarský kraj,F,Žena,Nemocenské,2387
+2019-02-01,VC.51,Karlovarský kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.51,Karlovarský kraj,F,Žena,Ošetřovné,1014
+2019-02-01,VC.51,Karlovarský kraj,F,Žena,Peněžitá pomoc v mateřství,751
+2019-02-01,VC.51,Karlovarský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-02-01,VC.51,Karlovarský kraj,M,Muž,Dlouhodobé ošetřovné,5
+2019-02-01,VC.51,Karlovarský kraj,M,Muž,Nemocenské,1653
+2019-02-01,VC.51,Karlovarský kraj,M,Muž,Otcovská poporodní péče,30
+2019-02-01,VC.51,Karlovarský kraj,M,Muž,Ošetřovné,169
+2019-02-01,VC.51,Karlovarský kraj,M,Muž,Peněžitá pomoc v mateřství,9
+2019-02-01,VC.60,Ústecký kraj,F,Žena,Dlouhodobé ošetřovné,39
+2019-02-01,VC.60,Ústecký kraj,F,Žena,Nemocenské,8547
+2019-02-01,VC.60,Ústecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.60,Ústecký kraj,F,Žena,Ošetřovné,3947
+2019-02-01,VC.60,Ústecký kraj,F,Žena,Peněžitá pomoc v mateřství,2400
+2019-02-01,VC.60,Ústecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,8
+2019-02-01,VC.60,Ústecký kraj,M,Muž,Dlouhodobé ošetřovné,4
+2019-02-01,VC.60,Ústecký kraj,M,Muž,Nemocenské,6018
+2019-02-01,VC.60,Ústecký kraj,M,Muž,Otcovská poporodní péče,169
+2019-02-01,VC.60,Ústecký kraj,M,Muž,Ošetřovné,702
+2019-02-01,VC.60,Ústecký kraj,M,Muž,Peněžitá pomoc v mateřství,14
+2019-02-01,VC.78,Liberecký kraj,F,Žena,Dlouhodobé ošetřovné,21
+2019-02-01,VC.78,Liberecký kraj,F,Žena,Nemocenské,4404
+2019-02-01,VC.78,Liberecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.78,Liberecký kraj,F,Žena,Ošetřovné,1829
+2019-02-01,VC.78,Liberecký kraj,F,Žena,Peněžitá pomoc v mateřství,1494
+2019-02-01,VC.78,Liberecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,7
+2019-02-01,VC.78,Liberecký kraj,M,Muž,Dlouhodobé ošetřovné,7
+2019-02-01,VC.78,Liberecký kraj,M,Muž,Nemocenské,3443
+2019-02-01,VC.78,Liberecký kraj,M,Muž,Otcovská poporodní péče,128
+2019-02-01,VC.78,Liberecký kraj,M,Muž,Ošetřovné,556
+2019-02-01,VC.78,Liberecký kraj,M,Muž,Peněžitá pomoc v mateřství,12
+2019-02-01,VC.86,Královéhradecký kraj,F,Žena,Dlouhodobé ošetřovné,32
+2019-02-01,VC.86,Královéhradecký kraj,F,Žena,Nemocenské,4957
+2019-02-01,VC.86,Královéhradecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.86,Královéhradecký kraj,F,Žena,Ošetřovné,2340
+2019-02-01,VC.86,Královéhradecký kraj,F,Žena,Peněžitá pomoc v mateřství,1828
+2019-02-01,VC.86,Královéhradecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,1
+2019-02-01,VC.86,Královéhradecký kraj,M,Muž,Dlouhodobé ošetřovné,20
+2019-02-01,VC.86,Královéhradecký kraj,M,Muž,Nemocenské,4498
+2019-02-01,VC.86,Královéhradecký kraj,M,Muž,Otcovská poporodní péče,191
+2019-02-01,VC.86,Královéhradecký kraj,M,Muž,Ošetřovné,741
+2019-02-01,VC.86,Královéhradecký kraj,M,Muž,Peněžitá pomoc v mateřství,21
+2019-02-01,VC.94,Pardubický kraj,F,Žena,Dlouhodobé ošetřovné,24
+2019-02-01,VC.94,Pardubický kraj,F,Žena,Nemocenské,5144
+2019-02-01,VC.94,Pardubický kraj,F,Žena,Otcovská poporodní péče,0
+2019-02-01,VC.94,Pardubický kraj,F,Žena,Ošetřovné,1972
+2019-02-01,VC.94,Pardubický kraj,F,Žena,Peněžitá pomoc v mateřství,2200
+2019-02-01,VC.94,Pardubický kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-02-01,VC.94,Pardubický kraj,M,Muž,Dlouhodobé ošetřovné,6
+2019-02-01,VC.94,Pardubický kraj,M,Muž,Nemocenské,4351
+2019-02-01,VC.94,Pardubický kraj,M,Muž,Otcovská poporodní péče,217
+2019-02-01,VC.94,Pardubický kraj,M,Muž,Ošetřovné,588
+2019-02-01,VC.94,Pardubický kraj,M,Muž,Peněžitá pomoc v mateřství,24
+2019-03-01,VC.108,Kraj Vysočina,F,Žena,Dlouhodobé ošetřovné,46
+2019-03-01,VC.108,Kraj Vysočina,F,Žena,Nemocenské,6183
+2019-03-01,VC.108,Kraj Vysočina,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.108,Kraj Vysočina,F,Žena,Ošetřovné,1977
+2019-03-01,VC.108,Kraj Vysočina,F,Žena,Peněžitá pomoc v mateřství,1676
+2019-03-01,VC.108,Kraj Vysočina,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,10
+2019-03-01,VC.108,Kraj Vysočina,M,Muž,Dlouhodobé ošetřovné,15
+2019-03-01,VC.108,Kraj Vysočina,M,Muž,Nemocenské,5708
+2019-03-01,VC.108,Kraj Vysočina,M,Muž,Otcovská poporodní péče,180
+2019-03-01,VC.108,Kraj Vysočina,M,Muž,Ošetřovné,823
+2019-03-01,VC.108,Kraj Vysočina,M,Muž,Peněžitá pomoc v mateřství,19
+2019-03-01,VC.116,Jihomoravský kraj,F,Žena,Dlouhodobé ošetřovné,105
+2019-03-01,VC.116,Jihomoravský kraj,F,Žena,Nemocenské,14353
+2019-03-01,VC.116,Jihomoravský kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.116,Jihomoravský kraj,F,Žena,Ošetřovné,4978
+2019-03-01,VC.116,Jihomoravský kraj,F,Žena,Peněžitá pomoc v mateřství,5830
+2019-03-01,VC.116,Jihomoravský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,25
+2019-03-01,VC.116,Jihomoravský kraj,M,Muž,Dlouhodobé ošetřovné,31
+2019-03-01,VC.116,Jihomoravský kraj,M,Muž,Nemocenské,12825
+2019-03-01,VC.116,Jihomoravský kraj,M,Muž,Otcovská poporodní péče,487
+2019-03-01,VC.116,Jihomoravský kraj,M,Muž,Ošetřovné,1412
+2019-03-01,VC.116,Jihomoravský kraj,M,Muž,Peněžitá pomoc v mateřství,77
+2019-03-01,VC.124,Olomoucký kraj,F,Žena,Dlouhodobé ošetřovné,29
+2019-03-01,VC.124,Olomoucký kraj,F,Žena,Nemocenské,7836
+2019-03-01,VC.124,Olomoucký kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.124,Olomoucký kraj,F,Žena,Ošetřovné,2932
+2019-03-01,VC.124,Olomoucký kraj,F,Žena,Peněžitá pomoc v mateřství,2030
+2019-03-01,VC.124,Olomoucký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,2
+2019-03-01,VC.124,Olomoucký kraj,M,Muž,Dlouhodobé ošetřovné,13
+2019-03-01,VC.124,Olomoucký kraj,M,Muž,Nemocenské,7536
+2019-03-01,VC.124,Olomoucký kraj,M,Muž,Otcovská poporodní péče,190
+2019-03-01,VC.124,Olomoucký kraj,M,Muž,Ošetřovné,1027
+2019-03-01,VC.124,Olomoucký kraj,M,Muž,Peněžitá pomoc v mateřství,15
+2019-03-01,VC.132,Moravskoslezský kraj,F,Žena,Dlouhodobé ošetřovné,83
+2019-03-01,VC.132,Moravskoslezský kraj,F,Žena,Nemocenské,16721
+2019-03-01,VC.132,Moravskoslezský kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.132,Moravskoslezský kraj,F,Žena,Ošetřovné,5421
+2019-03-01,VC.132,Moravskoslezský kraj,F,Žena,Peněžitá pomoc v mateřství,4250
+2019-03-01,VC.132,Moravskoslezský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,33
+2019-03-01,VC.132,Moravskoslezský kraj,M,Muž,Dlouhodobé ošetřovné,23
+2019-03-01,VC.132,Moravskoslezský kraj,M,Muž,Nemocenské,16379
+2019-03-01,VC.132,Moravskoslezský kraj,M,Muž,Otcovská poporodní péče,406
+2019-03-01,VC.132,Moravskoslezský kraj,M,Muž,Ošetřovné,2198
+2019-03-01,VC.132,Moravskoslezský kraj,M,Muž,Peněžitá pomoc v mateřství,44
+2019-03-01,VC.141,Zlínský kraj,F,Žena,Dlouhodobé ošetřovné,73
+2019-03-01,VC.141,Zlínský kraj,F,Žena,Nemocenské,8134
+2019-03-01,VC.141,Zlínský kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.141,Zlínský kraj,F,Žena,Ošetřovné,2640
+2019-03-01,VC.141,Zlínský kraj,F,Žena,Peněžitá pomoc v mateřství,2133
+2019-03-01,VC.141,Zlínský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,4
+2019-03-01,VC.141,Zlínský kraj,M,Muž,Dlouhodobé ošetřovné,16
+2019-03-01,VC.141,Zlínský kraj,M,Muž,Nemocenské,8136
+2019-03-01,VC.141,Zlínský kraj,M,Muž,Otcovská poporodní péče,224
+2019-03-01,VC.141,Zlínský kraj,M,Muž,Ošetřovné,1037
+2019-03-01,VC.141,Zlínský kraj,M,Muž,Peněžitá pomoc v mateřství,21
+2019-03-01,VC.19,Hlavní město Praha,F,Žena,Dlouhodobé ošetřovné,69
+2019-03-01,VC.19,Hlavní město Praha,F,Žena,Nemocenské,24762
+2019-03-01,VC.19,Hlavní město Praha,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.19,Hlavní město Praha,F,Žena,Ošetřovné,10957
+2019-03-01,VC.19,Hlavní město Praha,F,Žena,Peněžitá pomoc v mateřství,14245
+2019-03-01,VC.19,Hlavní město Praha,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,30
+2019-03-01,VC.19,Hlavní město Praha,M,Muž,Dlouhodobé ošetřovné,24
+2019-03-01,VC.19,Hlavní město Praha,M,Muž,Nemocenské,15292
+2019-03-01,VC.19,Hlavní město Praha,M,Muž,Otcovská poporodní péče,856
+2019-03-01,VC.19,Hlavní město Praha,M,Muž,Ošetřovné,2358
+2019-03-01,VC.19,Hlavní město Praha,M,Muž,Peněžitá pomoc v mateřství,162
+2019-03-01,VC.27,Středočeský kraj,F,Žena,Dlouhodobé ošetřovné,44
+2019-03-01,VC.27,Středočeský kraj,F,Žena,Nemocenské,13126
+2019-03-01,VC.27,Středočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.27,Středočeský kraj,F,Žena,Ošetřovné,5506
+2019-03-01,VC.27,Středočeský kraj,F,Žena,Peněžitá pomoc v mateřství,4247
+2019-03-01,VC.27,Středočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,15
+2019-03-01,VC.27,Středočeský kraj,M,Muž,Dlouhodobé ošetřovné,19
+2019-03-01,VC.27,Středočeský kraj,M,Muž,Nemocenské,10121
+2019-03-01,VC.27,Středočeský kraj,M,Muž,Otcovská poporodní péče,365
+2019-03-01,VC.27,Středočeský kraj,M,Muž,Ošetřovné,1881
+2019-03-01,VC.27,Středočeský kraj,M,Muž,Peněžitá pomoc v mateřství,48
+2019-03-01,VC.35,Jihočeský kraj,F,Žena,Dlouhodobé ošetřovné,79
+2019-03-01,VC.35,Jihočeský kraj,F,Žena,Nemocenské,8104
+2019-03-01,VC.35,Jihočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.35,Jihočeský kraj,F,Žena,Ošetřovné,3262
+2019-03-01,VC.35,Jihočeský kraj,F,Žena,Peněžitá pomoc v mateřství,2284
+2019-03-01,VC.35,Jihočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,2
+2019-03-01,VC.35,Jihočeský kraj,M,Muž,Dlouhodobé ošetřovné,23
+2019-03-01,VC.35,Jihočeský kraj,M,Muž,Nemocenské,6829
+2019-03-01,VC.35,Jihočeský kraj,M,Muž,Otcovská poporodní péče,224
+2019-03-01,VC.35,Jihočeský kraj,M,Muž,Ošetřovné,862
+2019-03-01,VC.35,Jihočeský kraj,M,Muž,Peněžitá pomoc v mateřství,21
+2019-03-01,VC.43,Plzeňský kraj,F,Žena,Dlouhodobé ošetřovné,35
+2019-03-01,VC.43,Plzeňský kraj,F,Žena,Nemocenské,7252
+2019-03-01,VC.43,Plzeňský kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.43,Plzeňský kraj,F,Žena,Ošetřovné,3084
+2019-03-01,VC.43,Plzeňský kraj,F,Žena,Peněžitá pomoc v mateřství,2005
+2019-03-01,VC.43,Plzeňský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,7
+2019-03-01,VC.43,Plzeňský kraj,M,Muž,Dlouhodobé ošetřovné,9
+2019-03-01,VC.43,Plzeňský kraj,M,Muž,Nemocenské,6018
+2019-03-01,VC.43,Plzeňský kraj,M,Muž,Otcovská poporodní péče,172
+2019-03-01,VC.43,Plzeňský kraj,M,Muž,Ošetřovné,764
+2019-03-01,VC.43,Plzeňský kraj,M,Muž,Peněžitá pomoc v mateřství,20
+2019-03-01,VC.51,Karlovarský kraj,F,Žena,Dlouhodobé ošetřovné,16
+2019-03-01,VC.51,Karlovarský kraj,F,Žena,Nemocenské,2827
+2019-03-01,VC.51,Karlovarský kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.51,Karlovarský kraj,F,Žena,Ošetřovné,1248
+2019-03-01,VC.51,Karlovarský kraj,F,Žena,Peněžitá pomoc v mateřství,735
+2019-03-01,VC.51,Karlovarský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,2
+2019-03-01,VC.51,Karlovarský kraj,M,Muž,Dlouhodobé ošetřovné,6
+2019-03-01,VC.51,Karlovarský kraj,M,Muž,Nemocenské,2034
+2019-03-01,VC.51,Karlovarský kraj,M,Muž,Otcovská poporodní péče,42
+2019-03-01,VC.51,Karlovarský kraj,M,Muž,Ošetřovné,224
+2019-03-01,VC.51,Karlovarský kraj,M,Muž,Peněžitá pomoc v mateřství,7
+2019-03-01,VC.60,Ústecký kraj,F,Žena,Dlouhodobé ošetřovné,43
+2019-03-01,VC.60,Ústecký kraj,F,Žena,Nemocenské,9560
+2019-03-01,VC.60,Ústecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.60,Ústecký kraj,F,Žena,Ošetřovné,4004
+2019-03-01,VC.60,Ústecký kraj,F,Žena,Peněžitá pomoc v mateřství,2346
+2019-03-01,VC.60,Ústecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,9
+2019-03-01,VC.60,Ústecký kraj,M,Muž,Dlouhodobé ošetřovné,2
+2019-03-01,VC.60,Ústecký kraj,M,Muž,Nemocenské,6772
+2019-03-01,VC.60,Ústecký kraj,M,Muž,Otcovská poporodní péče,146
+2019-03-01,VC.60,Ústecký kraj,M,Muž,Ošetřovné,756
+2019-03-01,VC.60,Ústecký kraj,M,Muž,Peněžitá pomoc v mateřství,13
+2019-03-01,VC.78,Liberecký kraj,F,Žena,Dlouhodobé ošetřovné,21
+2019-03-01,VC.78,Liberecký kraj,F,Žena,Nemocenské,5092
+2019-03-01,VC.78,Liberecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.78,Liberecký kraj,F,Žena,Ošetřovné,2409
+2019-03-01,VC.78,Liberecký kraj,F,Žena,Peněžitá pomoc v mateřství,1470
+2019-03-01,VC.78,Liberecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,9
+2019-03-01,VC.78,Liberecký kraj,M,Muž,Dlouhodobé ošetřovné,11
+2019-03-01,VC.78,Liberecký kraj,M,Muž,Nemocenské,3809
+2019-03-01,VC.78,Liberecký kraj,M,Muž,Otcovská poporodní péče,120
+2019-03-01,VC.78,Liberecký kraj,M,Muž,Ošetřovné,667
+2019-03-01,VC.78,Liberecký kraj,M,Muž,Peněžitá pomoc v mateřství,10
+2019-03-01,VC.86,Královéhradecký kraj,F,Žena,Dlouhodobé ošetřovné,26
+2019-03-01,VC.86,Královéhradecký kraj,F,Žena,Nemocenské,5898
+2019-03-01,VC.86,Královéhradecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.86,Královéhradecký kraj,F,Žena,Ošetřovné,2864
+2019-03-01,VC.86,Královéhradecký kraj,F,Žena,Peněžitá pomoc v mateřství,1818
+2019-03-01,VC.86,Královéhradecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,4
+2019-03-01,VC.86,Královéhradecký kraj,M,Muž,Dlouhodobé ošetřovné,14
+2019-03-01,VC.86,Královéhradecký kraj,M,Muž,Nemocenské,5455
+2019-03-01,VC.86,Královéhradecký kraj,M,Muž,Otcovská poporodní péče,205
+2019-03-01,VC.86,Královéhradecký kraj,M,Muž,Ošetřovné,949
+2019-03-01,VC.86,Královéhradecký kraj,M,Muž,Peněžitá pomoc v mateřství,26
+2019-03-01,VC.94,Pardubický kraj,F,Žena,Dlouhodobé ošetřovné,37
+2019-03-01,VC.94,Pardubický kraj,F,Žena,Nemocenské,6431
+2019-03-01,VC.94,Pardubický kraj,F,Žena,Otcovská poporodní péče,0
+2019-03-01,VC.94,Pardubický kraj,F,Žena,Ošetřovné,2579
+2019-03-01,VC.94,Pardubický kraj,F,Žena,Peněžitá pomoc v mateřství,2137
+2019-03-01,VC.94,Pardubický kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,5
+2019-03-01,VC.94,Pardubický kraj,M,Muž,Dlouhodobé ošetřovné,11
+2019-03-01,VC.94,Pardubický kraj,M,Muž,Nemocenské,5346
+2019-03-01,VC.94,Pardubický kraj,M,Muž,Otcovská poporodní péče,236
+2019-03-01,VC.94,Pardubický kraj,M,Muž,Ošetřovné,789
+2019-03-01,VC.94,Pardubický kraj,M,Muž,Peněžitá pomoc v mateřství,18
+2019-04-01,VC.108,Kraj Vysočina,F,Žena,Dlouhodobé ošetřovné,39
+2019-04-01,VC.108,Kraj Vysočina,F,Žena,Nemocenské,5569
+2019-04-01,VC.108,Kraj Vysočina,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.108,Kraj Vysočina,F,Žena,Ošetřovné,1374
+2019-04-01,VC.108,Kraj Vysočina,F,Žena,Peněžitá pomoc v mateřství,1644
+2019-04-01,VC.108,Kraj Vysočina,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,10
+2019-04-01,VC.108,Kraj Vysočina,M,Muž,Dlouhodobé ošetřovné,22
+2019-04-01,VC.108,Kraj Vysočina,M,Muž,Nemocenské,5139
+2019-04-01,VC.108,Kraj Vysočina,M,Muž,Otcovská poporodní péče,226
+2019-04-01,VC.108,Kraj Vysočina,M,Muž,Ošetřovné,622
+2019-04-01,VC.108,Kraj Vysočina,M,Muž,Peněžitá pomoc v mateřství,18
+2019-04-01,VC.116,Jihomoravský kraj,F,Žena,Dlouhodobé ošetřovné,102
+2019-04-01,VC.116,Jihomoravský kraj,F,Žena,Nemocenské,13667
+2019-04-01,VC.116,Jihomoravský kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.116,Jihomoravský kraj,F,Žena,Ošetřovné,4406
+2019-04-01,VC.116,Jihomoravský kraj,F,Žena,Peněžitá pomoc v mateřství,5876
+2019-04-01,VC.116,Jihomoravský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,22
+2019-04-01,VC.116,Jihomoravský kraj,M,Muž,Dlouhodobé ošetřovné,21
+2019-04-01,VC.116,Jihomoravský kraj,M,Muž,Nemocenské,11344
+2019-04-01,VC.116,Jihomoravský kraj,M,Muž,Otcovská poporodní péče,516
+2019-04-01,VC.116,Jihomoravský kraj,M,Muž,Ošetřovné,1261
+2019-04-01,VC.116,Jihomoravský kraj,M,Muž,Peněžitá pomoc v mateřství,69
+2019-04-01,VC.124,Olomoucký kraj,F,Žena,Dlouhodobé ošetřovné,35
+2019-04-01,VC.124,Olomoucký kraj,F,Žena,Nemocenské,7161
+2019-04-01,VC.124,Olomoucký kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.124,Olomoucký kraj,F,Žena,Ošetřovné,2076
+2019-04-01,VC.124,Olomoucký kraj,F,Žena,Peněžitá pomoc v mateřství,2024
+2019-04-01,VC.124,Olomoucký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,6
+2019-04-01,VC.124,Olomoucký kraj,M,Muž,Dlouhodobé ošetřovné,9
+2019-04-01,VC.124,Olomoucký kraj,M,Muž,Nemocenské,6456
+2019-04-01,VC.124,Olomoucký kraj,M,Muž,Otcovská poporodní péče,188
+2019-04-01,VC.124,Olomoucký kraj,M,Muž,Ošetřovné,717
+2019-04-01,VC.124,Olomoucký kraj,M,Muž,Peněžitá pomoc v mateřství,20
+2019-04-01,VC.132,Moravskoslezský kraj,F,Žena,Dlouhodobé ošetřovné,70
+2019-04-01,VC.132,Moravskoslezský kraj,F,Žena,Nemocenské,15936
+2019-04-01,VC.132,Moravskoslezský kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.132,Moravskoslezský kraj,F,Žena,Ošetřovné,4409
+2019-04-01,VC.132,Moravskoslezský kraj,F,Žena,Peněžitá pomoc v mateřství,4184
+2019-04-01,VC.132,Moravskoslezský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,26
+2019-04-01,VC.132,Moravskoslezský kraj,M,Muž,Dlouhodobé ošetřovné,9
+2019-04-01,VC.132,Moravskoslezský kraj,M,Muž,Nemocenské,14712
+2019-04-01,VC.132,Moravskoslezský kraj,M,Muž,Otcovská poporodní péče,467
+2019-04-01,VC.132,Moravskoslezský kraj,M,Muž,Ošetřovné,1860
+2019-04-01,VC.132,Moravskoslezský kraj,M,Muž,Peněžitá pomoc v mateřství,45
+2019-04-01,VC.141,Zlínský kraj,F,Žena,Dlouhodobé ošetřovné,68
+2019-04-01,VC.141,Zlínský kraj,F,Žena,Nemocenské,7333
+2019-04-01,VC.141,Zlínský kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.141,Zlínský kraj,F,Žena,Ošetřovné,1797
+2019-04-01,VC.141,Zlínský kraj,F,Žena,Peněžitá pomoc v mateřství,2120
+2019-04-01,VC.141,Zlínský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,4
+2019-04-01,VC.141,Zlínský kraj,M,Muž,Dlouhodobé ošetřovné,14
+2019-04-01,VC.141,Zlínský kraj,M,Muž,Nemocenské,6941
+2019-04-01,VC.141,Zlínský kraj,M,Muž,Otcovská poporodní péče,173
+2019-04-01,VC.141,Zlínský kraj,M,Muž,Ošetřovné,709
+2019-04-01,VC.141,Zlínský kraj,M,Muž,Peněžitá pomoc v mateřství,23
+2019-04-01,VC.19,Hlavní město Praha,F,Žena,Dlouhodobé ošetřovné,77
+2019-04-01,VC.19,Hlavní město Praha,F,Žena,Nemocenské,25048
+2019-04-01,VC.19,Hlavní město Praha,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.19,Hlavní město Praha,F,Žena,Ošetřovné,9533
+2019-04-01,VC.19,Hlavní město Praha,F,Žena,Peněžitá pomoc v mateřství,14340
+2019-04-01,VC.19,Hlavní město Praha,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,34
+2019-04-01,VC.19,Hlavní město Praha,M,Muž,Dlouhodobé ošetřovné,19
+2019-04-01,VC.19,Hlavní město Praha,M,Muž,Nemocenské,15095
+2019-04-01,VC.19,Hlavní město Praha,M,Muž,Otcovská poporodní péče,920
+2019-04-01,VC.19,Hlavní město Praha,M,Muž,Ošetřovné,2003
+2019-04-01,VC.19,Hlavní město Praha,M,Muž,Peněžitá pomoc v mateřství,155
+2019-04-01,VC.27,Středočeský kraj,F,Žena,Dlouhodobé ošetřovné,44
+2019-04-01,VC.27,Středočeský kraj,F,Žena,Nemocenské,11724
+2019-04-01,VC.27,Středočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.27,Středočeský kraj,F,Žena,Ošetřovné,3938
+2019-04-01,VC.27,Středočeský kraj,F,Žena,Peněžitá pomoc v mateřství,4240
+2019-04-01,VC.27,Středočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,26
+2019-04-01,VC.27,Středočeský kraj,M,Muž,Dlouhodobé ošetřovné,20
+2019-04-01,VC.27,Středočeský kraj,M,Muž,Nemocenské,8700
+2019-04-01,VC.27,Středočeský kraj,M,Muž,Otcovská poporodní péče,421
+2019-04-01,VC.27,Středočeský kraj,M,Muž,Ošetřovné,1330
+2019-04-01,VC.27,Středočeský kraj,M,Muž,Peněžitá pomoc v mateřství,43
+2019-04-01,VC.35,Jihočeský kraj,F,Žena,Dlouhodobé ošetřovné,76
+2019-04-01,VC.35,Jihočeský kraj,F,Žena,Nemocenské,7347
+2019-04-01,VC.35,Jihočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.35,Jihočeský kraj,F,Žena,Ošetřovné,2492
+2019-04-01,VC.35,Jihočeský kraj,F,Žena,Peněžitá pomoc v mateřství,2280
+2019-04-01,VC.35,Jihočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,4
+2019-04-01,VC.35,Jihočeský kraj,M,Muž,Dlouhodobé ošetřovné,15
+2019-04-01,VC.35,Jihočeský kraj,M,Muž,Nemocenské,5794
+2019-04-01,VC.35,Jihočeský kraj,M,Muž,Otcovská poporodní péče,206
+2019-04-01,VC.35,Jihočeský kraj,M,Muž,Ošetřovné,643
+2019-04-01,VC.35,Jihočeský kraj,M,Muž,Peněžitá pomoc v mateřství,19
+2019-04-01,VC.43,Plzeňský kraj,F,Žena,Dlouhodobé ošetřovné,38
+2019-04-01,VC.43,Plzeňský kraj,F,Žena,Nemocenské,6812
+2019-04-01,VC.43,Plzeňský kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.43,Plzeňský kraj,F,Žena,Ošetřovné,2362
+2019-04-01,VC.43,Plzeňský kraj,F,Žena,Peněžitá pomoc v mateřství,2053
+2019-04-01,VC.43,Plzeňský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,7
+2019-04-01,VC.43,Plzeňský kraj,M,Muž,Dlouhodobé ošetřovné,11
+2019-04-01,VC.43,Plzeňský kraj,M,Muž,Nemocenské,5553
+2019-04-01,VC.43,Plzeňský kraj,M,Muž,Otcovská poporodní péče,216
+2019-04-01,VC.43,Plzeňský kraj,M,Muž,Ošetřovné,681
+2019-04-01,VC.43,Plzeňský kraj,M,Muž,Peněžitá pomoc v mateřství,20
+2019-04-01,VC.51,Karlovarský kraj,F,Žena,Dlouhodobé ošetřovné,9
+2019-04-01,VC.51,Karlovarský kraj,F,Žena,Nemocenské,2517
+2019-04-01,VC.51,Karlovarský kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.51,Karlovarský kraj,F,Žena,Ošetřovné,1039
+2019-04-01,VC.51,Karlovarský kraj,F,Žena,Peněžitá pomoc v mateřství,689
+2019-04-01,VC.51,Karlovarský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-04-01,VC.51,Karlovarský kraj,M,Muž,Dlouhodobé ošetřovné,5
+2019-04-01,VC.51,Karlovarský kraj,M,Muž,Nemocenské,1751
+2019-04-01,VC.51,Karlovarský kraj,M,Muž,Otcovská poporodní péče,40
+2019-04-01,VC.51,Karlovarský kraj,M,Muž,Ošetřovné,175
+2019-04-01,VC.51,Karlovarský kraj,M,Muž,Peněžitá pomoc v mateřství,7
+2019-04-01,VC.60,Ústecký kraj,F,Žena,Dlouhodobé ošetřovné,37
+2019-04-01,VC.60,Ústecký kraj,F,Žena,Nemocenské,9131
+2019-04-01,VC.60,Ústecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.60,Ústecký kraj,F,Žena,Ošetřovné,3071
+2019-04-01,VC.60,Ústecký kraj,F,Žena,Peněžitá pomoc v mateřství,2343
+2019-04-01,VC.60,Ústecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,13
+2019-04-01,VC.60,Ústecký kraj,M,Muž,Dlouhodobé ošetřovné,1
+2019-04-01,VC.60,Ústecký kraj,M,Muž,Nemocenské,6011
+2019-04-01,VC.60,Ústecký kraj,M,Muž,Otcovská poporodní péče,153
+2019-04-01,VC.60,Ústecký kraj,M,Muž,Ošetřovné,587
+2019-04-01,VC.60,Ústecký kraj,M,Muž,Peněžitá pomoc v mateřství,12
+2019-04-01,VC.78,Liberecký kraj,F,Žena,Dlouhodobé ošetřovné,16
+2019-04-01,VC.78,Liberecký kraj,F,Žena,Nemocenské,4856
+2019-04-01,VC.78,Liberecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.78,Liberecký kraj,F,Žena,Ošetřovné,1772
+2019-04-01,VC.78,Liberecký kraj,F,Žena,Peněžitá pomoc v mateřství,1511
+2019-04-01,VC.78,Liberecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,11
+2019-04-01,VC.78,Liberecký kraj,M,Muž,Dlouhodobé ošetřovné,8
+2019-04-01,VC.78,Liberecký kraj,M,Muž,Nemocenské,3602
+2019-04-01,VC.78,Liberecký kraj,M,Muž,Otcovská poporodní péče,154
+2019-04-01,VC.78,Liberecký kraj,M,Muž,Ošetřovné,531
+2019-04-01,VC.78,Liberecký kraj,M,Muž,Peněžitá pomoc v mateřství,10
+2019-04-01,VC.86,Královéhradecký kraj,F,Žena,Dlouhodobé ošetřovné,40
+2019-04-01,VC.86,Královéhradecký kraj,F,Žena,Nemocenské,5581
+2019-04-01,VC.86,Královéhradecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.86,Královéhradecký kraj,F,Žena,Ošetřovné,1957
+2019-04-01,VC.86,Královéhradecký kraj,F,Žena,Peněžitá pomoc v mateřství,1831
+2019-04-01,VC.86,Královéhradecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-04-01,VC.86,Královéhradecký kraj,M,Muž,Dlouhodobé ošetřovné,11
+2019-04-01,VC.86,Královéhradecký kraj,M,Muž,Nemocenské,4859
+2019-04-01,VC.86,Královéhradecký kraj,M,Muž,Otcovská poporodní péče,195
+2019-04-01,VC.86,Královéhradecký kraj,M,Muž,Ošetřovné,650
+2019-04-01,VC.86,Královéhradecký kraj,M,Muž,Peněžitá pomoc v mateřství,20
+2019-04-01,VC.94,Pardubický kraj,F,Žena,Dlouhodobé ošetřovné,36
+2019-04-01,VC.94,Pardubický kraj,F,Žena,Nemocenské,5901
+2019-04-01,VC.94,Pardubický kraj,F,Žena,Otcovská poporodní péče,0
+2019-04-01,VC.94,Pardubický kraj,F,Žena,Ošetřovné,2039
+2019-04-01,VC.94,Pardubický kraj,F,Žena,Peněžitá pomoc v mateřství,2106
+2019-04-01,VC.94,Pardubický kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,1
+2019-04-01,VC.94,Pardubický kraj,M,Muž,Dlouhodobé ošetřovné,15
+2019-04-01,VC.94,Pardubický kraj,M,Muž,Nemocenské,4647
+2019-04-01,VC.94,Pardubický kraj,M,Muž,Otcovská poporodní péče,215
+2019-04-01,VC.94,Pardubický kraj,M,Muž,Ošetřovné,587
+2019-04-01,VC.94,Pardubický kraj,M,Muž,Peněžitá pomoc v mateřství,15
+2019-05-01,VC.108,Kraj Vysočina,F,Žena,Dlouhodobé ošetřovné,44
+2019-05-01,VC.108,Kraj Vysočina,F,Žena,Nemocenské,5177
+2019-05-01,VC.108,Kraj Vysočina,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.108,Kraj Vysočina,F,Žena,Ošetřovné,1358
+2019-05-01,VC.108,Kraj Vysočina,F,Žena,Peněžitá pomoc v mateřství,1668
+2019-05-01,VC.108,Kraj Vysočina,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,9
+2019-05-01,VC.108,Kraj Vysočina,M,Muž,Dlouhodobé ošetřovné,14
+2019-05-01,VC.108,Kraj Vysočina,M,Muž,Nemocenské,4565
+2019-05-01,VC.108,Kraj Vysočina,M,Muž,Otcovská poporodní péče,201
+2019-05-01,VC.108,Kraj Vysočina,M,Muž,Ošetřovné,578
+2019-05-01,VC.108,Kraj Vysočina,M,Muž,Peněžitá pomoc v mateřství,16
+2019-05-01,VC.116,Jihomoravský kraj,F,Žena,Dlouhodobé ošetřovné,107
+2019-05-01,VC.116,Jihomoravský kraj,F,Žena,Nemocenské,13718
+2019-05-01,VC.116,Jihomoravský kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.116,Jihomoravský kraj,F,Žena,Ošetřovné,3946
+2019-05-01,VC.116,Jihomoravský kraj,F,Žena,Peněžitá pomoc v mateřství,5834
+2019-05-01,VC.116,Jihomoravský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,18
+2019-05-01,VC.116,Jihomoravský kraj,M,Muž,Dlouhodobé ošetřovné,19
+2019-05-01,VC.116,Jihomoravský kraj,M,Muž,Nemocenské,10687
+2019-05-01,VC.116,Jihomoravský kraj,M,Muž,Otcovská poporodní péče,584
+2019-05-01,VC.116,Jihomoravský kraj,M,Muž,Ošetřovné,1185
+2019-05-01,VC.116,Jihomoravský kraj,M,Muž,Peněžitá pomoc v mateřství,78
+2019-05-01,VC.124,Olomoucký kraj,F,Žena,Dlouhodobé ošetřovné,41
+2019-05-01,VC.124,Olomoucký kraj,F,Žena,Nemocenské,6583
+2019-05-01,VC.124,Olomoucký kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.124,Olomoucký kraj,F,Žena,Ošetřovné,1804
+2019-05-01,VC.124,Olomoucký kraj,F,Žena,Peněžitá pomoc v mateřství,2003
+2019-05-01,VC.124,Olomoucký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,2
+2019-05-01,VC.124,Olomoucký kraj,M,Muž,Dlouhodobé ošetřovné,7
+2019-05-01,VC.124,Olomoucký kraj,M,Muž,Nemocenské,5635
+2019-05-01,VC.124,Olomoucký kraj,M,Muž,Otcovská poporodní péče,189
+2019-05-01,VC.124,Olomoucký kraj,M,Muž,Ošetřovné,627
+2019-05-01,VC.124,Olomoucký kraj,M,Muž,Peněžitá pomoc v mateřství,21
+2019-05-01,VC.132,Moravskoslezský kraj,F,Žena,Dlouhodobé ošetřovné,68
+2019-05-01,VC.132,Moravskoslezský kraj,F,Žena,Nemocenské,16058
+2019-05-01,VC.132,Moravskoslezský kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.132,Moravskoslezský kraj,F,Žena,Ošetřovné,3919
+2019-05-01,VC.132,Moravskoslezský kraj,F,Žena,Peněžitá pomoc v mateřství,4196
+2019-05-01,VC.132,Moravskoslezský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,25
+2019-05-01,VC.132,Moravskoslezský kraj,M,Muž,Dlouhodobé ošetřovné,10
+2019-05-01,VC.132,Moravskoslezský kraj,M,Muž,Nemocenské,14076
+2019-05-01,VC.132,Moravskoslezský kraj,M,Muž,Otcovská poporodní péče,529
+2019-05-01,VC.132,Moravskoslezský kraj,M,Muž,Ošetřovné,1729
+2019-05-01,VC.132,Moravskoslezský kraj,M,Muž,Peněžitá pomoc v mateřství,39
+2019-05-01,VC.141,Zlínský kraj,F,Žena,Dlouhodobé ošetřovné,76
+2019-05-01,VC.141,Zlínský kraj,F,Žena,Nemocenské,6999
+2019-05-01,VC.141,Zlínský kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.141,Zlínský kraj,F,Žena,Ošetřovné,1897
+2019-05-01,VC.141,Zlínský kraj,F,Žena,Peněžitá pomoc v mateřství,2085
+2019-05-01,VC.141,Zlínský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,8
+2019-05-01,VC.141,Zlínský kraj,M,Muž,Dlouhodobé ošetřovné,26
+2019-05-01,VC.141,Zlínský kraj,M,Muž,Nemocenské,6340
+2019-05-01,VC.141,Zlínský kraj,M,Muž,Otcovská poporodní péče,246
+2019-05-01,VC.141,Zlínský kraj,M,Muž,Ošetřovné,791
+2019-05-01,VC.141,Zlínský kraj,M,Muž,Peněžitá pomoc v mateřství,21
+2019-05-01,VC.19,Hlavní město Praha,F,Žena,Dlouhodobé ošetřovné,77
+2019-05-01,VC.19,Hlavní město Praha,F,Žena,Nemocenské,25332
+2019-05-01,VC.19,Hlavní město Praha,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.19,Hlavní město Praha,F,Žena,Ošetřovné,9043
+2019-05-01,VC.19,Hlavní město Praha,F,Žena,Peněžitá pomoc v mateřství,14441
+2019-05-01,VC.19,Hlavní město Praha,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,65
+2019-05-01,VC.19,Hlavní město Praha,M,Muž,Dlouhodobé ošetřovné,18
+2019-05-01,VC.19,Hlavní město Praha,M,Muž,Nemocenské,14624
+2019-05-01,VC.19,Hlavní město Praha,M,Muž,Otcovská poporodní péče,973
+2019-05-01,VC.19,Hlavní město Praha,M,Muž,Ošetřovné,1882
+2019-05-01,VC.19,Hlavní město Praha,M,Muž,Peněžitá pomoc v mateřství,137
+2019-05-01,VC.27,Středočeský kraj,F,Žena,Dlouhodobé ošetřovné,39
+2019-05-01,VC.27,Středočeský kraj,F,Žena,Nemocenské,11885
+2019-05-01,VC.27,Středočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.27,Středočeský kraj,F,Žena,Ošetřovné,3757
+2019-05-01,VC.27,Středočeský kraj,F,Žena,Peněžitá pomoc v mateřství,4280
+2019-05-01,VC.27,Středočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,14
+2019-05-01,VC.27,Středočeský kraj,M,Muž,Dlouhodobé ošetřovné,25
+2019-05-01,VC.27,Středočeský kraj,M,Muž,Nemocenské,8878
+2019-05-01,VC.27,Středočeský kraj,M,Muž,Otcovská poporodní péče,478
+2019-05-01,VC.27,Středočeský kraj,M,Muž,Ošetřovné,1157
+2019-05-01,VC.27,Středočeský kraj,M,Muž,Peněžitá pomoc v mateřství,43
+2019-05-01,VC.35,Jihočeský kraj,F,Žena,Dlouhodobé ošetřovné,63
+2019-05-01,VC.35,Jihočeský kraj,F,Žena,Nemocenské,7442
+2019-05-01,VC.35,Jihočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.35,Jihočeský kraj,F,Žena,Ošetřovné,2479
+2019-05-01,VC.35,Jihočeský kraj,F,Žena,Peněžitá pomoc v mateřství,2308
+2019-05-01,VC.35,Jihočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,9
+2019-05-01,VC.35,Jihočeský kraj,M,Muž,Dlouhodobé ošetřovné,21
+2019-05-01,VC.35,Jihočeský kraj,M,Muž,Nemocenské,5639
+2019-05-01,VC.35,Jihočeský kraj,M,Muž,Otcovská poporodní péče,235
+2019-05-01,VC.35,Jihočeský kraj,M,Muž,Ošetřovné,613
+2019-05-01,VC.35,Jihočeský kraj,M,Muž,Peněžitá pomoc v mateřství,19
+2019-05-01,VC.43,Plzeňský kraj,F,Žena,Dlouhodobé ošetřovné,39
+2019-05-01,VC.43,Plzeňský kraj,F,Žena,Nemocenské,6625
+2019-05-01,VC.43,Plzeňský kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.43,Plzeňský kraj,F,Žena,Ošetřovné,2142
+2019-05-01,VC.43,Plzeňský kraj,F,Žena,Peněžitá pomoc v mateřství,2099
+2019-05-01,VC.43,Plzeňský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,2
+2019-05-01,VC.43,Plzeňský kraj,M,Muž,Dlouhodobé ošetřovné,17
+2019-05-01,VC.43,Plzeňský kraj,M,Muž,Nemocenské,5158
+2019-05-01,VC.43,Plzeňský kraj,M,Muž,Otcovská poporodní péče,205
+2019-05-01,VC.43,Plzeňský kraj,M,Muž,Ošetřovné,570
+2019-05-01,VC.43,Plzeňský kraj,M,Muž,Peněžitá pomoc v mateřství,23
+2019-05-01,VC.51,Karlovarský kraj,F,Žena,Dlouhodobé ošetřovné,9
+2019-05-01,VC.51,Karlovarský kraj,F,Žena,Nemocenské,2495
+2019-05-01,VC.51,Karlovarský kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.51,Karlovarský kraj,F,Žena,Ošetřovné,888
+2019-05-01,VC.51,Karlovarský kraj,F,Žena,Peněžitá pomoc v mateřství,675
+2019-05-01,VC.51,Karlovarský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,2
+2019-05-01,VC.51,Karlovarský kraj,M,Muž,Dlouhodobé ošetřovné,4
+2019-05-01,VC.51,Karlovarský kraj,M,Muž,Nemocenské,1721
+2019-05-01,VC.51,Karlovarský kraj,M,Muž,Otcovská poporodní péče,45
+2019-05-01,VC.51,Karlovarský kraj,M,Muž,Ošetřovné,188
+2019-05-01,VC.51,Karlovarský kraj,M,Muž,Peněžitá pomoc v mateřství,7
+2019-05-01,VC.60,Ústecký kraj,F,Žena,Dlouhodobé ošetřovné,47
+2019-05-01,VC.60,Ústecký kraj,F,Žena,Nemocenské,8909
+2019-05-01,VC.60,Ústecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.60,Ústecký kraj,F,Žena,Ošetřovné,2956
+2019-05-01,VC.60,Ústecký kraj,F,Žena,Peněžitá pomoc v mateřství,2421
+2019-05-01,VC.60,Ústecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,11
+2019-05-01,VC.60,Ústecký kraj,M,Muž,Dlouhodobé ošetřovné,1
+2019-05-01,VC.60,Ústecký kraj,M,Muž,Nemocenské,5944
+2019-05-01,VC.60,Ústecký kraj,M,Muž,Otcovská poporodní péče,176
+2019-05-01,VC.60,Ústecký kraj,M,Muž,Ošetřovné,576
+2019-05-01,VC.60,Ústecký kraj,M,Muž,Peněžitá pomoc v mateřství,17
+2019-05-01,VC.78,Liberecký kraj,F,Žena,Dlouhodobé ošetřovné,25
+2019-05-01,VC.78,Liberecký kraj,F,Žena,Nemocenské,4626
+2019-05-01,VC.78,Liberecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.78,Liberecký kraj,F,Žena,Ošetřovné,1623
+2019-05-01,VC.78,Liberecký kraj,F,Žena,Peněžitá pomoc v mateřství,1518
+2019-05-01,VC.78,Liberecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,13
+2019-05-01,VC.78,Liberecký kraj,M,Muž,Dlouhodobé ošetřovné,4
+2019-05-01,VC.78,Liberecký kraj,M,Muž,Nemocenské,3372
+2019-05-01,VC.78,Liberecký kraj,M,Muž,Otcovská poporodní péče,167
+2019-05-01,VC.78,Liberecký kraj,M,Muž,Ošetřovné,436
+2019-05-01,VC.78,Liberecký kraj,M,Muž,Peněžitá pomoc v mateřství,11
+2019-05-01,VC.86,Královéhradecký kraj,F,Žena,Dlouhodobé ošetřovné,45
+2019-05-01,VC.86,Královéhradecký kraj,F,Žena,Nemocenské,5421
+2019-05-01,VC.86,Královéhradecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.86,Královéhradecký kraj,F,Žena,Ošetřovné,1768
+2019-05-01,VC.86,Královéhradecký kraj,F,Žena,Peněžitá pomoc v mateřství,1812
+2019-05-01,VC.86,Královéhradecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,6
+2019-05-01,VC.86,Královéhradecký kraj,M,Muž,Dlouhodobé ošetřovné,12
+2019-05-01,VC.86,Královéhradecký kraj,M,Muž,Nemocenské,4731
+2019-05-01,VC.86,Královéhradecký kraj,M,Muž,Otcovská poporodní péče,208
+2019-05-01,VC.86,Královéhradecký kraj,M,Muž,Ošetřovné,616
+2019-05-01,VC.86,Královéhradecký kraj,M,Muž,Peněžitá pomoc v mateřství,20
+2019-05-01,VC.94,Pardubický kraj,F,Žena,Dlouhodobé ošetřovné,48
+2019-05-01,VC.94,Pardubický kraj,F,Žena,Nemocenské,5922
+2019-05-01,VC.94,Pardubický kraj,F,Žena,Otcovská poporodní péče,0
+2019-05-01,VC.94,Pardubický kraj,F,Žena,Ošetřovné,1811
+2019-05-01,VC.94,Pardubický kraj,F,Žena,Peněžitá pomoc v mateřství,2092
+2019-05-01,VC.94,Pardubický kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,8
+2019-05-01,VC.94,Pardubický kraj,M,Muž,Dlouhodobé ošetřovné,10
+2019-05-01,VC.94,Pardubický kraj,M,Muž,Nemocenské,4516
+2019-05-01,VC.94,Pardubický kraj,M,Muž,Otcovská poporodní péče,204
+2019-05-01,VC.94,Pardubický kraj,M,Muž,Ošetřovné,535
+2019-05-01,VC.94,Pardubický kraj,M,Muž,Peněžitá pomoc v mateřství,14
+2019-06-01,VC.108,Kraj Vysočina,F,Žena,Dlouhodobé ošetřovné,53
+2019-06-01,VC.108,Kraj Vysočina,F,Žena,Nemocenské,4543
+2019-06-01,VC.108,Kraj Vysočina,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.108,Kraj Vysočina,F,Žena,Ošetřovné,1185
+2019-06-01,VC.108,Kraj Vysočina,F,Žena,Peněžitá pomoc v mateřství,2138
+2019-06-01,VC.108,Kraj Vysočina,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,7
+2019-06-01,VC.108,Kraj Vysočina,M,Muž,Dlouhodobé ošetřovné,16
+2019-06-01,VC.108,Kraj Vysočina,M,Muž,Nemocenské,4012
+2019-06-01,VC.108,Kraj Vysočina,M,Muž,Otcovská poporodní péče,198
+2019-06-01,VC.108,Kraj Vysočina,M,Muž,Ošetřovné,492
+2019-06-01,VC.108,Kraj Vysočina,M,Muž,Peněžitá pomoc v mateřství,15
+2019-06-01,VC.116,Jihomoravský kraj,F,Žena,Dlouhodobé ošetřovné,78
+2019-06-01,VC.116,Jihomoravský kraj,F,Žena,Nemocenské,11446
+2019-06-01,VC.116,Jihomoravský kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.116,Jihomoravský kraj,F,Žena,Ošetřovné,3201
+2019-06-01,VC.116,Jihomoravský kraj,F,Žena,Peněžitá pomoc v mateřství,5970
+2019-06-01,VC.116,Jihomoravský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,18
+2019-06-01,VC.116,Jihomoravský kraj,M,Muž,Dlouhodobé ošetřovné,17
+2019-06-01,VC.116,Jihomoravský kraj,M,Muž,Nemocenské,9107
+2019-06-01,VC.116,Jihomoravský kraj,M,Muž,Otcovská poporodní péče,448
+2019-06-01,VC.116,Jihomoravský kraj,M,Muž,Ošetřovné,909
+2019-06-01,VC.116,Jihomoravský kraj,M,Muž,Peněžitá pomoc v mateřství,74
+2019-06-01,VC.124,Olomoucký kraj,F,Žena,Dlouhodobé ošetřovné,29
+2019-06-01,VC.124,Olomoucký kraj,F,Žena,Nemocenské,5973
+2019-06-01,VC.124,Olomoucký kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.124,Olomoucký kraj,F,Žena,Ošetřovné,1631
+2019-06-01,VC.124,Olomoucký kraj,F,Žena,Peněžitá pomoc v mateřství,2046
+2019-06-01,VC.124,Olomoucký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,1
+2019-06-01,VC.124,Olomoucký kraj,M,Muž,Dlouhodobé ošetřovné,17
+2019-06-01,VC.124,Olomoucký kraj,M,Muž,Nemocenské,5116
+2019-06-01,VC.124,Olomoucký kraj,M,Muž,Otcovská poporodní péče,181
+2019-06-01,VC.124,Olomoucký kraj,M,Muž,Ošetřovné,557
+2019-06-01,VC.124,Olomoucký kraj,M,Muž,Peněžitá pomoc v mateřství,21
+2019-06-01,VC.132,Moravskoslezský kraj,F,Žena,Dlouhodobé ošetřovné,75
+2019-06-01,VC.132,Moravskoslezský kraj,F,Žena,Nemocenské,13546
+2019-06-01,VC.132,Moravskoslezský kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.132,Moravskoslezský kraj,F,Žena,Ošetřovné,3340
+2019-06-01,VC.132,Moravskoslezský kraj,F,Žena,Peněžitá pomoc v mateřství,4379
+2019-06-01,VC.132,Moravskoslezský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,31
+2019-06-01,VC.132,Moravskoslezský kraj,M,Muž,Dlouhodobé ošetřovné,7
+2019-06-01,VC.132,Moravskoslezský kraj,M,Muž,Nemocenské,11882
+2019-06-01,VC.132,Moravskoslezský kraj,M,Muž,Otcovská poporodní péče,442
+2019-06-01,VC.132,Moravskoslezský kraj,M,Muž,Ošetřovné,1444
+2019-06-01,VC.132,Moravskoslezský kraj,M,Muž,Peněžitá pomoc v mateřství,45
+2019-06-01,VC.141,Zlínský kraj,F,Žena,Dlouhodobé ošetřovné,66
+2019-06-01,VC.141,Zlínský kraj,F,Žena,Nemocenské,6093
+2019-06-01,VC.141,Zlínský kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.141,Zlínský kraj,F,Žena,Ošetřovné,1674
+2019-06-01,VC.141,Zlínský kraj,F,Žena,Peněžitá pomoc v mateřství,2151
+2019-06-01,VC.141,Zlínský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,6
+2019-06-01,VC.141,Zlínský kraj,M,Muž,Dlouhodobé ošetřovné,24
+2019-06-01,VC.141,Zlínský kraj,M,Muž,Nemocenské,5699
+2019-06-01,VC.141,Zlínský kraj,M,Muž,Otcovská poporodní péče,219
+2019-06-01,VC.141,Zlínský kraj,M,Muž,Ošetřovné,669
+2019-06-01,VC.141,Zlínský kraj,M,Muž,Peněžitá pomoc v mateřství,22
+2019-06-01,VC.19,Hlavní město Praha,F,Žena,Dlouhodobé ošetřovné,68
+2019-06-01,VC.19,Hlavní město Praha,F,Žena,Nemocenské,22487
+2019-06-01,VC.19,Hlavní město Praha,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.19,Hlavní město Praha,F,Žena,Ošetřovné,7158
+2019-06-01,VC.19,Hlavní město Praha,F,Žena,Peněžitá pomoc v mateřství,14852
+2019-06-01,VC.19,Hlavní město Praha,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,45
+2019-06-01,VC.19,Hlavní město Praha,M,Muž,Dlouhodobé ošetřovné,21
+2019-06-01,VC.19,Hlavní město Praha,M,Muž,Nemocenské,13081
+2019-06-01,VC.19,Hlavní město Praha,M,Muž,Otcovská poporodní péče,926
+2019-06-01,VC.19,Hlavní město Praha,M,Muž,Ošetřovné,1623
+2019-06-01,VC.19,Hlavní město Praha,M,Muž,Peněžitá pomoc v mateřství,131
+2019-06-01,VC.27,Středočeský kraj,F,Žena,Dlouhodobé ošetřovné,45
+2019-06-01,VC.27,Středočeský kraj,F,Žena,Nemocenské,10401
+2019-06-01,VC.27,Středočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.27,Středočeský kraj,F,Žena,Ošetřovné,3295
+2019-06-01,VC.27,Středočeský kraj,F,Žena,Peněžitá pomoc v mateřství,4419
+2019-06-01,VC.27,Středočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,23
+2019-06-01,VC.27,Středočeský kraj,M,Muž,Dlouhodobé ošetřovné,17
+2019-06-01,VC.27,Středočeský kraj,M,Muž,Nemocenské,7721
+2019-06-01,VC.27,Středočeský kraj,M,Muž,Otcovská poporodní péče,370
+2019-06-01,VC.27,Středočeský kraj,M,Muž,Ošetřovné,1107
+2019-06-01,VC.27,Středočeský kraj,M,Muž,Peněžitá pomoc v mateřství,47
+2019-06-01,VC.35,Jihočeský kraj,F,Žena,Dlouhodobé ošetřovné,58
+2019-06-01,VC.35,Jihočeský kraj,F,Žena,Nemocenské,6338
+2019-06-01,VC.35,Jihočeský kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.35,Jihočeský kraj,F,Žena,Ošetřovné,2061
+2019-06-01,VC.35,Jihočeský kraj,F,Žena,Peněžitá pomoc v mateřství,2345
+2019-06-01,VC.35,Jihočeský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,5
+2019-06-01,VC.35,Jihočeský kraj,M,Muž,Dlouhodobé ošetřovné,2
+2019-06-01,VC.35,Jihočeský kraj,M,Muž,Nemocenské,4810
+2019-06-01,VC.35,Jihočeský kraj,M,Muž,Otcovská poporodní péče,189
+2019-06-01,VC.35,Jihočeský kraj,M,Muž,Ošetřovné,486
+2019-06-01,VC.35,Jihočeský kraj,M,Muž,Peněžitá pomoc v mateřství,19
+2019-06-01,VC.43,Plzeňský kraj,F,Žena,Dlouhodobé ošetřovné,42
+2019-06-01,VC.43,Plzeňský kraj,F,Žena,Nemocenské,5705
+2019-06-01,VC.43,Plzeňský kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.43,Plzeňský kraj,F,Žena,Ošetřovné,1853
+2019-06-01,VC.43,Plzeňský kraj,F,Žena,Peněžitá pomoc v mateřství,2161
+2019-06-01,VC.43,Plzeňský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,5
+2019-06-01,VC.43,Plzeňský kraj,M,Muž,Dlouhodobé ošetřovné,9
+2019-06-01,VC.43,Plzeňský kraj,M,Muž,Nemocenské,4444
+2019-06-01,VC.43,Plzeňský kraj,M,Muž,Otcovská poporodní péče,184
+2019-06-01,VC.43,Plzeňský kraj,M,Muž,Ošetřovné,490
+2019-06-01,VC.43,Plzeňský kraj,M,Muž,Peněžitá pomoc v mateřství,20
+2019-06-01,VC.51,Karlovarský kraj,F,Žena,Dlouhodobé ošetřovné,16
+2019-06-01,VC.51,Karlovarský kraj,F,Žena,Nemocenské,2233
+2019-06-01,VC.51,Karlovarský kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.51,Karlovarský kraj,F,Žena,Ošetřovné,749
+2019-06-01,VC.51,Karlovarský kraj,F,Žena,Peněžitá pomoc v mateřství,723
+2019-06-01,VC.51,Karlovarský kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,4
+2019-06-01,VC.51,Karlovarský kraj,M,Muž,Dlouhodobé ošetřovné,4
+2019-06-01,VC.51,Karlovarský kraj,M,Muž,Nemocenské,1577
+2019-06-01,VC.51,Karlovarský kraj,M,Muž,Otcovská poporodní péče,28
+2019-06-01,VC.51,Karlovarský kraj,M,Muž,Ošetřovné,141
+2019-06-01,VC.51,Karlovarský kraj,M,Muž,Peněžitá pomoc v mateřství,8
+2019-06-01,VC.60,Ústecký kraj,F,Žena,Dlouhodobé ošetřovné,36
+2019-06-01,VC.60,Ústecký kraj,F,Žena,Nemocenské,7611
+2019-06-01,VC.60,Ústecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.60,Ústecký kraj,F,Žena,Ošetřovné,2486
+2019-06-01,VC.60,Ústecký kraj,F,Žena,Peněžitá pomoc v mateřství,2476
+2019-06-01,VC.60,Ústecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-06-01,VC.60,Ústecký kraj,M,Muž,Dlouhodobé ošetřovné,3
+2019-06-01,VC.60,Ústecký kraj,M,Muž,Nemocenské,5215
+2019-06-01,VC.60,Ústecký kraj,M,Muž,Otcovská poporodní péče,148
+2019-06-01,VC.60,Ústecký kraj,M,Muž,Ošetřovné,502
+2019-06-01,VC.60,Ústecký kraj,M,Muž,Peněžitá pomoc v mateřství,15
+2019-06-01,VC.78,Liberecký kraj,F,Žena,Dlouhodobé ošetřovné,27
+2019-06-01,VC.78,Liberecký kraj,F,Žena,Nemocenské,4188
+2019-06-01,VC.78,Liberecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.78,Liberecký kraj,F,Žena,Ošetřovné,1317
+2019-06-01,VC.78,Liberecký kraj,F,Žena,Peněžitá pomoc v mateřství,1576
+2019-06-01,VC.78,Liberecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,11
+2019-06-01,VC.78,Liberecký kraj,M,Muž,Dlouhodobé ošetřovné,6
+2019-06-01,VC.78,Liberecký kraj,M,Muž,Nemocenské,3014
+2019-06-01,VC.78,Liberecký kraj,M,Muž,Otcovská poporodní péče,127
+2019-06-01,VC.78,Liberecký kraj,M,Muž,Ošetřovné,364
+2019-06-01,VC.78,Liberecký kraj,M,Muž,Peněžitá pomoc v mateřství,12
+2019-06-01,VC.86,Královéhradecký kraj,F,Žena,Dlouhodobé ošetřovné,27
+2019-06-01,VC.86,Královéhradecký kraj,F,Žena,Nemocenské,4791
+2019-06-01,VC.86,Královéhradecký kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.86,Královéhradecký kraj,F,Žena,Ošetřovné,1611
+2019-06-01,VC.86,Královéhradecký kraj,F,Žena,Peněžitá pomoc v mateřství,1823
+2019-06-01,VC.86,Královéhradecký kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,6
+2019-06-01,VC.86,Královéhradecký kraj,M,Muž,Dlouhodobé ošetřovné,8
+2019-06-01,VC.86,Královéhradecký kraj,M,Muž,Nemocenské,4252
+2019-06-01,VC.86,Královéhradecký kraj,M,Muž,Otcovská poporodní péče,164
+2019-06-01,VC.86,Královéhradecký kraj,M,Muž,Ošetřovné,575
+2019-06-01,VC.86,Královéhradecký kraj,M,Muž,Peněžitá pomoc v mateřství,18
+2019-06-01,VC.94,Pardubický kraj,F,Žena,Dlouhodobé ošetřovné,40
+2019-06-01,VC.94,Pardubický kraj,F,Žena,Nemocenské,5036
+2019-06-01,VC.94,Pardubický kraj,F,Žena,Otcovská poporodní péče,0
+2019-06-01,VC.94,Pardubický kraj,F,Žena,Ošetřovné,1397
+2019-06-01,VC.94,Pardubický kraj,F,Žena,Peněžitá pomoc v mateřství,2163
+2019-06-01,VC.94,Pardubický kraj,F,Žena,Vyrovnávací příspěvěk v těhotenství a mateřství,3
+2019-06-01,VC.94,Pardubický kraj,M,Muž,Dlouhodobé ošetřovné,13
+2019-06-01,VC.94,Pardubický kraj,M,Muž,Nemocenské,3971
+2019-06-01,VC.94,Pardubický kraj,M,Muž,Otcovská poporodní péče,178
+2019-06-01,VC.94,Pardubický kraj,M,Muž,Ošetřovné,454
+2019-06-01,VC.94,Pardubický kraj,M,Muž,Peněžitá pomoc v mateřství,17
