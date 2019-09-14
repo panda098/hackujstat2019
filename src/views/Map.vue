@@ -317,6 +317,8 @@
 
   .list {
     text-align: left;
+    border: none;
+    box-shadow: none;
 
     &.no-bullets {
       list-style-type: none;
@@ -325,7 +327,7 @@
   }
 
   .accord {
-    height: 240px;
+    height: 230px;
     overflow: hidden;
     margin-bottom: 10px;
     position: relative;
@@ -333,8 +335,8 @@
     &:after {
       position: absolute;
       content: '+';
-      top: 0;
-      right: 10px;
+      top: -2px;
+      right: 15px;
       font-size: 20px;
     }
 
@@ -348,6 +350,8 @@
 
     &__heading {
       text-decoration: underline;
+      margin-bottom: 10px !important;
+      padding-right: 30px;
 
       &:hover {
         text-decoration: none;
