@@ -1,8 +1,9 @@
 # hackujstat2019
 
-##init data
+## init data
 ```
-node src/assets/js/csvParser.js
+cd src/assets/js
+node initData.js
 ```
 
 ## Project setup
