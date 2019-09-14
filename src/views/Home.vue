@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h3>#hackujstat2019</h3>
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
          width="800" height="600" viewBox="15 40 340 280" enable-background="new 0 0 400 300" xml:space="preserve">
       <g class="mapa_cr_kraje">
@@ -581,6 +580,15 @@
         <text class="kraj_value_CZ080 kraj_value" transform="matrix(1 0 0 1 304.4268 193.4248)"></text>
   </g>
     </svg>
+    <h1>todo nazev</h1>
+    <h3>#hackujstat2019</h3>
+    <p>Použité datové sady:</p>
+    <a target="_blank"
+       href="https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2Fhttps---opendata.mzcr.cz-api-3-action-package_show-id-nrpzs">Národní
+      registr poskytovatelů zdravotních služeb</a><br>
+    <a target="_blank"
+       href="https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2Fhttp---vdb.czso.cz-pll-eweb-package_show-id-130143">Zemřelí
+      podle příčin smrti a pohlaví v ČR, krajích a okresech</a>
   </div>
 </template>
 
