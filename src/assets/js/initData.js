@@ -4,54 +4,54 @@ const xml2js = require('xml2js');
 
 const nrpzs = [];
 
-fs.createReadStream('../csv/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv')
+fs.createReadStream(__dirname + '/../csv/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv')
     .pipe(csv())
     .on('data', (data) => nrpzs.push(data))
     .on('end', () => {
-      fs.writeFile('../../../public/nrpzs.json', JSON.stringify(nrpzs), 'utf8', () => {
+      fs.writeFile(__dirname + '/../../../public/nrpzs.json', JSON.stringify(nrpzs), 'utf8', () => {
       });
     });
 
 
 const kraje = [];
 
-fs.createReadStream('../csv/kraj.csv')
+fs.createReadStream(__dirname + '/../csv/kraj.csv')
     .pipe(csv({separator: ';'}))
     .on('data', (data) => {
       kraje.push(data)
     })
     .on('end', () => {
-      fs.writeFile('../../../public/kraj.json', JSON.stringify(kraje), 'utf8', () => {
+      fs.writeFile(__dirname + '/../../../public/kraj.json', JSON.stringify(kraje), 'utf8', () => {
       });
     });
 
 const okresy = [];
 
-fs.createReadStream('../csv/okres.csv')
+fs.createReadStream(__dirname + '/../csv/okres.csv')
     .pipe(csv({separator: ';'}))
     .on('data', (data) => {
       okresy.push(data)
     })
     .on('end', () => {
-      fs.writeFile('../../../public/okres.json', JSON.stringify(okresy), 'utf8', () => {
+      fs.writeFile(__dirname + '/../../../public/okres.json', JSON.stringify(okresy), 'utf8', () => {
       });
     });
 
 const obce = [];
 
-fs.createReadStream('../csv/obec.csv')
+fs.createReadStream(__dirname + '/../csv/obec.csv')
     .pipe(csv({separator: ';'}))
     .on('data', (data) => {
       obce.push(data)
     })
     .on('end', () => {
-      fs.writeFile('../../../public/obec.json', JSON.stringify(obce), 'utf8', () => {
+      fs.writeFile(__dirname + '/../../../public/obec.json', JSON.stringify(obce), 'utf8', () => {
       });
     });
 
 let ciselnikKraje = [];
 var parser = new xml2js.Parser();
-fs.readFile('../csv/CIS0100_CS.xml', function (err, data) {
+fs.readFile(__dirname + '/../csv/CIS0100_CS.xml', function (err, data) {
   parser.parseString(data, function (err, result) {
     var kraje = result.EXPORT.DATA[0].POLOZKA;
     kraje.forEach((el) => {
@@ -65,7 +65,7 @@ fs.readFile('../csv/CIS0100_CS.xml', function (err, data) {
 
 const zemreli = [];
 
-fs.createReadStream('../csv/zemreli.csv')
+fs.createReadStream(__dirname + '/../csv/zemreli.csv')
     .pipe(csv({separator: ','}))
     .on('data', (data) => {
       let el = ciselnikKraje.find(x => x.kod === data.vuzemi_kod);
@@ -76,13 +76,13 @@ fs.createReadStream('../csv/zemreli.csv')
       }
     })
     .on('end', () => {
-      fs.writeFile('../../../public/zemreli.json', JSON.stringify(zemreli), 'utf8', () => {
+      fs.writeFile(__dirname + '/../../../public/zemreli.json', JSON.stringify(zemreli), 'utf8', () => {
       });
     });
 
 const dnp = [];
 
-fs.createReadStream('../csv/pocet-vyplacenych-dnp-podle-kraju-2019.csv')
+fs.createReadStream(__dirname + '/../csv/pocet-vyplacenych-dnp-podle-kraju-2019.csv')
     .pipe(csv({separator: ','}))
     .on('data', (data) => {
       let ruianKod = data.kraj_kod.replace("VC.", "");
@@ -91,6 +91,6 @@ fs.createReadStream('../csv/pocet-vyplacenych-dnp-podle-kraju-2019.csv')
       dnp.push(data)
     })
     .on('end', () => {
-      fs.writeFile('../../../public/dnp.json', JSON.stringify(dnp), 'utf8', () => {
+      fs.writeFile(__dirname + '/../../../public/dnp.json', JSON.stringify(dnp), 'utf8', () => {
       });
     });

@@ -1,10 +1,6 @@
 # hackujstat2019
 
-## init data
-```
-cd src/assets/js
-node initData.js
-```
+created during event "HACKATHON VEŘEJNÉ SPRÁVY VER. 3.0" (https://www.hackujstat.cz/)
 
 ## Project setup
 ```
@@ -19,11 +15,6 @@ yarn run serve
 ### Compiles and minifies for production
 ```
 yarn run build
-```
-
-### Run your tests
-```
-yarn run test
 ```
 
 ### Lints and fixes files

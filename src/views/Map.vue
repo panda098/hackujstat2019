@@ -12,10 +12,10 @@
     </div>
     <div class="wrapper">
       <div class="side-bar">
-        <h4 class="subtitle">Druhy zdrav. zařízení</h4>
+        <h4 class="subtitle has-text-weight-bold">Druhy zdrav. zařízení</h4>
         <label v-for="druh in sortedDruhyZarizeni" :key="druh.DruhZarizeni" :for="druh.DruhZarizeni">
           <input type="radio" :id="druh.DruhZarizeni" :value="druh.DruhZarizeni" v-model="selectedDruh">
-          {{druh.DruhZarizeni}} ({{druh.count}})<br>
+          {{druh.DruhZarizeni}} (<span class="has-text-weight-bold">{{druh.count}}</span>)<br>
         </label>
       </div>
       <div id="map"></div>
@@ -23,7 +23,8 @@
         <div class="accord">
           <h4 class="subtitle accord__heading" @click="toggleMaxHeight">Zemřelí podle příčin smrti</h4>
           <ul class="list no-bullets">
-            <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod">{{pricina.hodnota}} - {{pricina.ps_txt}}
+            <li v-for="pricina in sortedPricinyUmrti" :key="pricina.ps_kod"><span class="has-text-weight-bold">{{pricina.hodnota}}</span>
+              - {{pricina.ps_txt}}
             </li>
           </ul>
         </div>
@@ -32,13 +33,13 @@
           <strong>Ženy</strong>
           <ul class="list no-bullets">
             <li v-for="dnp in filteredDnpFemale">
-              <span v-if="dnp">{{dnp.typ}}: {{dnp.pocet}}</span>
+              <span v-if="dnp">{{dnp.typ}}: <span class="has-text-weight-bold">{{dnp.pocet}}</span></span>
             </li>
           </ul>
           <strong>Muži</strong>
           <ul class="list no-bullets">
             <li v-for="dnp in filteredDnpMale">
-              <span v-if="dnp">{{dnp.typ}}: {{dnp.pocet}}</span>
+              <span v-if="dnp">{{dnp.typ}}: <span class="has-text-weight-bold">{{dnp.pocet}}</span></span>
             </li>
           </ul>
         </div>
